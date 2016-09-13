@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2016 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 SEP 2016 14:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -262,113 +262,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 215.
 
 
-LaTeX Warning: Citation `guth81' on page 2 undefined on input line 227.
-
-
-LaTeX Warning: Citation `linde82' on page 2 undefined on input line 227.
-
-
-LaTeX Warning: Citation `albrecht82' on page 2 undefined on input line 227.
-
-
-LaTeX Warning: Citation `sato81' on page 2 undefined on input line 227.
-
-
-LaTeX Warning: Citation `kolb94' on page 2 undefined on input line 227.
-
-
-LaTeX Warning: Citation `spergel06' on page 2 undefined on input line 230.
-
-
-LaTeX Warning: Citation `Tegmark:2006az' on page 2 undefined on input line 230.
-
-
-
-LaTeX Warning: Citation `planck2015parameters' on page 2 undefined on input lin
-e 230.
-
-
-LaTeX Warning: Citation `planck2015inflation' on page 2 undefined on input line
- 230.
-
-
-LaTeX Warning: Citation `starobinsky82' on page 2 undefined on input line 233.
-
-
-LaTeX Warning: Citation `starobinsky83a' on page 2 undefined on input line 233.
-
-
-
-LaTeX Warning: Citation `rubakov82' on page 2 undefined on input line 233.
-
-
-LaTeX Warning: Citation `grishchuk75' on page 2 undefined on input line 233.
-
-
-LaTeX Warning: Citation `abbott84a' on page 2 undefined on input line 233.
-
-
-LaTeX Warning: Citation `SnowmassInflationTheory' on page 2 undefined on input 
-line 244.
-
-
-LaTeX Warning: Citation `kamionkowski97b' on page 2 undefined on input line 270
-.
-
-
-LaTeX Warning: Citation `seljak97' on page 2 undefined on input line 270.
-
-
-LaTeX Warning: Citation `kamionkowski97a' on page 2 undefined on input line 273
-.
-
-
-LaTeX Warning: Citation `zaldarriaga97' on page 2 undefined on input line 273.
-
-
 LaTeX Warning: Reference `fig:ebex_cls' on page 2 undefined on input line 276.
-
-
-LaTeX Warning: Citation `blandford2010' on page 2 undefined on input line 279.
-
-
-LaTeX Warning: Citation `bicep2Bmode' on page 2 undefined on input line 281.
 
 
 LaTeX Warning: Reference `sec:lensing' on page 2 undefined on input line 285.
 
 
-LaTeX Warning: Citation `bkp2015' on page 2 undefined on input line 285.
-
-
-LaTeX Warning: Citation `planck2014-XXX' on page 2 undefined on input line 285.
-
-
-
 LaTeX Warning: Citation `2016PhRvL.116c1302B' on page 2 undefined on input line
  285.
 
-
-LaTeX Warning: Citation `bkp2015' on page 2 undefined on input line 288.
-
-[2] [3]
-No file Proposal_20160913.bbl.
-[4] [13] [14] [15] [29] [33] [34] (./Proposal_20160913.aux)
+[2] [3] (./Proposal_20160913.bbl [4] [5]) [6] [7] [16] [17] [18] [32] [36]
+[37] (./Proposal_20160913.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2856 strings out of 493089
- 36946 string characters out of 6134842
- 101267 words of memory out of 5000000
+ 2858 strings out of 493089
+ 36987 string characters out of 6134842
+ 102342 words of memory out of 5000000
  6286 multiletter control sequences out of 15000+600000
  17446 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,43p,657b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,43p,337b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
@@ -378,10 +294,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on Proposal_20160913.pdf (10 pages, 93697 bytes).
+Output written on Proposal_20160913.pdf (13 pages, 107738 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
