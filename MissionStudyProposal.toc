@@ -8,17 +8,17 @@
 \contentsline {subsection}{\numberline {1.5}Mission Study, and Management Plan }{3}
 \contentsline {section}{\numberline {2}Curriculum Vitae}{7}
 \contentsline {section}{\numberline {3}Summary of Work Effort}{16}
-\contentsline {section}{\numberline {4}Current and Pending Support}{18}
-\contentsline {section}{\numberline {5}Letters of Support}{32}
-\contentsline {section}{\numberline {6}Budget Details - Narrative}{36}
-\contentsline {subsection}{\numberline {6.1}Team, and Work Effort}{36}
-\contentsline {subsubsection}{\numberline {6.1.1}Funded Team Members}{36}
-\contentsline {subsubsection}{\numberline {6.1.2}Non-Funded Team Members}{36}
-\contentsline {subsection}{\numberline {6.2}Costing Principles}{36}
-\contentsline {subsection}{\numberline {6.3}University of Minnesota Budget}{36}
-\contentsline {subsubsection}{\numberline {6.3.1}Direct Labor}{36}
-\contentsline {subsubsection}{\numberline {6.3.2}Supplies}{36}
-\contentsline {subsubsection}{\numberline {6.3.3}Travel}{36}
-\contentsline {subsubsection}{\numberline {6.3.4}Other Direct Costs}{36}
-\contentsline {subsubsection}{\numberline {6.3.5}Facilities and Administrative Costs}{36}
-\contentsline {section}{\numberline {7}Budget Sheets}{37}
+\contentsline {section}{\numberline {4}Current and Pending Support}{16}
+\contentsline {section}{\numberline {5}Letters of Support}{30}
+\contentsline {section}{\numberline {6}Budget Details - Narrative}{34}
+\contentsline {subsection}{\numberline {6.1}Team, and Work Effort}{34}
+\contentsline {subsubsection}{\numberline {6.1.1}Funded Team Members}{34}
+\contentsline {subsubsection}{\numberline {6.1.2}Non-Funded Team Members}{34}
+\contentsline {subsection}{\numberline {6.2}Costing Principles}{34}
+\contentsline {subsection}{\numberline {6.3}University of Minnesota Budget}{34}
+\contentsline {subsubsection}{\numberline {6.3.1}Direct Labor}{34}
+\contentsline {subsubsection}{\numberline {6.3.2}Supplies}{34}
+\contentsline {subsubsection}{\numberline {6.3.3}Travel}{34}
+\contentsline {subsubsection}{\numberline {6.3.4}Other Direct Costs}{34}
+\contentsline {subsubsection}{\numberline {6.3.5}Facilities and Administrative Costs}{34}
+\contentsline {section}{\numberline {7}Budget Sheets}{35}
