@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2016 13:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2016 13:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -326,14 +326,11 @@ inclusion: multiple pdfs with page group included in a single page
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  2908 strings out of 493089
  37973 string characters out of 6134842
- 102371 words of memory out of 5000000
+ 102379 words of memory out of 5000000
  6304 multiletter control sequences out of 15000+600000
  19031 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -347,7 +344,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on MissionStudyProposal.pdf (11 pages, 441477 bytes).
+Output written on MissionStudyProposal.pdf (11 pages, 441451 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
