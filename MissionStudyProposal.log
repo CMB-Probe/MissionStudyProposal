@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2016 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 OCT 2016 13:49
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -156,19 +156,19 @@ Package: cite 2015/02/27  v 5.5
 ) (./probe_defs.tex) (./MissionStudyProposal.aux)
 \openout1 = `MissionStudyProposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -235,7 +235,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 
 (./MissionStudyProposal.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -282,23 +282,62 @@ LaTeX Warning: Reference `sec:lensing' on page 2 undefined on input line 65.
 LaTeX Warning: Citation `2016PhRvL.116c1302B' on page 2 undefined on input line
  65.
 
-[2 <./Figures/sunny_skies.jpg> <./Figures/sunny_skies2.jpg>])
-(./foregrounds_systematics.tex) (./current_effort_and_probe.tex)
-(./technology.tex) (./mission_study.tex) [3] (./MissionStudyProposal.bbl
-[4] [5]) [6] [7] [16] [30] (./budget.tex) [34] [35] (./MissionStudyProposal.aux
-)
+[2 <./Figures/sunny_skies.jpg> <./Figures/sunny_skies2.jpg>]
+<figs/Mnu_tauprior.pdf, id=18, 536.71138pt x 409.16615pt>
+File: figs/Mnu_tauprior.pdf Graphic file (type pdf)
+
+<use figs/Mnu_tauprior.pdf>
+Package pdftex.def Info: figs/Mnu_tauprior.pdf used on input line 85.
+(pdftex.def)             Requested size: 211.3883pt x 161.15372pt.
+
+<figs/Neff_space.pdf, id=19, 537.32304pt x 441.8953pt>
+File: figs/Neff_space.pdf Graphic file (type pdf)
+
+<use figs/Neff_space.pdf>
+Package pdftex.def Info: figs/Neff_space.pdf used on input line 86.
+(pdftex.def)             Requested size: 211.3883pt x 173.84885pt.
+
+! Undefined control sequence.
+<argument> ...rior on $\tau $. {\it Right} $\Neff 
+                                                  $ Forecasts as a function ...
+l.87 ...mu$K-arcmin assuming $f_{\rm sky} = 0.7$.}
+                                                  
+? 
+! Undefined control sequence.
+<recently read> \Neff 
+                      
+l.87 ...mu$K-arcmin assuming $f_{\rm sky} = 0.7$.}
+                                                  
+? 
+! Undefined control sequence.
+<recently read> \Neff 
+                      
+l.87 ...mu$K-arcmin assuming $f_{\rm sky} = 0.7$.}
+                                                  
+? 
+) (./foregrounds_systematics.tex) (./current_effort_and_probe.tex)
+(./technology.tex) (./mission_study.tex) [3 <./figs/Mnu_tauprior.pdf> <./figs/N
+eff_space.pdf
+
+pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./figs/Neff_space.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] (./MissionStudyProposal.bbl [4] [5]) [6] [7] [16] [30] (./budget.tex)
+[34] [35] (./MissionStudyProposal.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2895 strings out of 493089
- 37719 string characters out of 6134842
+ 2908 strings out of 493089
+ 37973 string characters out of 6134842
  102371 words of memory out of 5000000
- 6294 multiletter control sequences out of 15000+600000
+ 6304 multiletter control sequences out of 15000+600000
  19031 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,43p,646b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,43p,646b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
@@ -308,10 +347,10 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 15/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on MissionStudyProposal.pdf (11 pages, 399007 bytes).
+Output written on MissionStudyProposal.pdf (11 pages, 441477 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 214 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
