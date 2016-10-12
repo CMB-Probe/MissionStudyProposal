@@ -67,70 +67,6 @@ M.~Tegmark, D.~Eisenstein, M.~Strauss, D.~Weinberg, M.~Blanton, J.~Frieman,
 \newblock {Planck 2015. XX. Constraints on inflation}.
 \newblock {\em ArXiv e-prints}, February 2015.
 
-\bibitem{starobinsky82}
-A.~A. {Starobinsky}.
-\newblock {Dynamic of Phase Transition in the New Inflationary Universe
-  Scenario and Generation of Perturbationss}.
-\newblock {\em Phys. Lett.}, B117:175--178, 1982.
-
-\bibitem{starobinsky83a}
-A.~A. {Starobinskii}.
-\newblock {The Perturbation Spectrum Evolving from a Nonsingular Initially
-  De-Sitter Cosmology and the Microwave Background Anisotropy}.
-\newblock {\em Soviet Astronomy Letters}, 9:302--+, June 1983.
-
-\bibitem{rubakov82}
-V.~A. {Rubakov}, M.~V. {Sazhin}, and A.~V. {Veryaskin}.
-\newblock {Graviton creation in the inflationary universe and the grand
-  unification scale}.
-\newblock {\em \plb}, 115:189--192, September 1982.
-
-\bibitem{grishchuk75}
-L.~P. Grishchuk.
-\newblock Amplification of gravitational waves in an istropic universe.
-\newblock {\em Sov. Phys. JETP}, 40:409--415, 1975.
-
-\bibitem{abbott84a}
-L.~F. {Abbott} and M.~B. {Wise}.
-\newblock {Constraints on generalized inflationary cosmologies}.
-\newblock {\em Nuclear Physics B}, 244:541--548, October 1984.
-
-\bibitem{SnowmassInflationTheory}
-K.~N. {Abazajian}, K.~{Arnold}, J.~{Austermann}, B.~A. {Benson}, C.~{Bischoff},
-  J.~{Bock}, J.~R. {Bond}, J.~{Borrill}, I.~{Buder}, D.~L. {Burke},
-  E.~{Calabrese}, J.~E. {Carlstrom}, C.~S. {Carvalho}, C.~L. {Chang}, H.~C.
-  {Chiang}, S.~{Church}, A.~{Cooray}, T.~M. {Crawford}, B.~P. {Crill}, K.~S.
-  {Dawson}, S.~{Das}, M.~J. {Devlin}, M.~{Dobbs}, S.~{Dodelson}, O.~{Dor{\'e}},
-  J.~{Dunkley}, J.~L. {Feng}, A.~{Fraisse}, J.~{Gallicchio}, S.~B. {Giddings},
-  D.~{Green}, N.~W. {Halverson}, S.~{Hanany}, D.~{Hanson}, S.~R. {Hildebrandt},
-  A.~{Hincks}, R.~{Hlozek}, G.~{Holder}, W.~L. {Holzapfel}, K.~{Honscheid},
-  G.~{Horowitz}, W.~{Hu}, J.~{Hubmayr}, K.~{Irwin}, M.~{Jackson}, W.~C.
-  {Jones}, R.~{Kallosh}, M.~{Kamionkowski}, B.~{Keating}, R.~{Keisler},
-  W.~{Kinney}, L.~{Knox}, E.~{Komatsu}, J.~{Kovac}, C.-L. {Kuo}, A.~{Kusaka},
-  C.~{Lawrence}, A.~T. {Lee}, E.~{Leitch}, A.~{Linde}, E.~{Linder}, P.~{Lubin},
-  J.~{Maldacena}, E.~{Martinec}, J.~{McMahon}, A.~{Miller}, V.~{Mukhanov},
-  L.~{Newburgh}, M.~D. {Niemack}, H.~{Nguyen}, H.~T. {Nguyen}, L.~{Page},
-  C.~{Pryke}, C.~L. {Reichardt}, J.~E. {Ruhl}, N.~{Sehgal}, U.~{Seljak},
-  L.~{Senatore}, J.~{Sievers}, E.~{Silverstein}, A.~{Slosar}, K.~M. {Smith},
-  D.~{Spergel}, S.~T. {Staggs}, A.~{Stark}, R.~{Stompor}, A.~G. {Vieregg},
-  G.~{Wang}, S.~{Watson}, E.~J. {Wollack}, W.~L.~K. {Wu}, K.~W. {Yoon},
-  O.~{Zahn}, and M.~{Zaldarriaga}.
-\newblock {Inflation Physics from the Cosmic Microwave Background and Large
-  Scale Structure}.
-\newblock {\em ArXiv e-prints}, September 2013.
-
-\bibitem{kamionkowski97b}
-M.~{Kamionkowski}, A.~{Kosowsky}, and A.~{Stebbins}.
-\newblock {Statistics of Cosmic Microwave Background Polarization}.
-\newblock {\em \prd}, 55:7368--7388, June 1997.
-
-\bibitem{seljak97}
-U.~{Seljak} and M.~{Zaldarriaga}.
-\newblock {Signature of Gravity Waves in the Polarization of the Microwave
-  Background}.
-\newblock {\em \prl}, 78:2054--2057, March 1997.
-\newblock astro-ph/9609169.
-
 \bibitem{kamionkowski97a}
 M.~{Kamionkowski}, A.~{Kosowsky}, and A.~{Stebbins}.
 \newblock {A Probe of Primordial Gravity Waves and Vorticity}.
@@ -147,28 +83,451 @@ Committee for a Decadal Survey~of Astronomy and Astrophysics.
 \newblock {\em New Worlds, New Horizons in Astronomy and Astrophysics}.
 \newblock National Academy Press, 2010.
 
-\bibitem{bicep2Bmode}
-P.~A.~R. {Ade}, R.~W. {Aikin}, D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff},
-  J.~J. {Bock}, J.~A. {Brevik}, I.~{Buder}, E.~{Bullock}, C.~D. {Dowell},
-  L.~{Duband}, J.~P. {Filippini}, S.~{Fliescher}, S.~R. {Golwala},
-  M.~{Halpern}, M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C. {Hilton}, V.~V.
-  {Hristov}, K.~D. {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating},
-  S.~A. {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M. {Leitch},
-  M.~{Lueker}, P.~{Mason}, C.~B. {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient},
-  R.~W. {Ogburn}, A.~{Orlando}, C.~{Pryke}, C.~D. {Reintsema}, S.~{Richter},
-  R.~{Schwarz}, C.~D. {Sheehy}, Z.~K. {Staniszewski}, R.~V. {Sudiwala}, G.~P.
-  {Teply}, J.~E. {Tolan}, A.~D. {Turner}, A.~G. {Vieregg}, C.~L. {Wong}, K.~W.
-  {Yoon}, and {Bicep2 Collaboration}.
-\newblock {Detection of B-Mode Polarization at Degree Angular Scales by
-  BICEP2}.
-\newblock {\em Physical Review Letters}, 112(24):241101, June 2014.
+\bibitem{Mukhanov:2013tua}
+Viatcheslav Mukhanov.
+\newblock {Quantum Cosmological Perturbations: Predictions and Observations}.
+\newblock {\em Eur. Phys. J.}, C73:2486, 2013.
 
-\bibitem{bkp2015}
-{BICEP2/Keck}, {Planck Collaborations}, {:}, P.~A.~R. {Ade}, N.~{Aghanim},
-  Z.~{Ahmed}, R.~W. {Aikin}, K.~D. {Alexander}, M.~{Arnaud}, J.~{Aumont}, and
-  et~al.
-\newblock {A Joint Analysis of BICEP2/Keck Array and Planck Data}.
-\newblock {\em ArXiv e-prints}, February 2015.
+\bibitem{Roest:2013fha}
+Diederik Roest.
+\newblock {Universality classes of inflation}.
+\newblock {\em JCAP}, 1401:007, 2014.
+
+\bibitem{Creminelli:2014nqa}
+Paolo Creminelli, Sergei Dubovsky, Diana Lopez~Nacir, Marko Simonovic, Gabriele
+  Trevisan, Giovanni Villadoro, and Matias Zaldarriaga.
+\newblock {Implications of the scalar tilt for the tensor-to-scalar ratio}.
+\newblock {\em Phys. Rev.}, D92(12):123528, 2015.
+
+\bibitem{Namba:2015gja}
+Ryo Namba, Marco Peloso, Maresuke Shiraishi, Lorenzo Sorbo, and Caner Unal.
+\newblock {Scale-dependent gravitational waves from a rolling axion}.
+\newblock {\em JCAP}, 1601(01):041, 2016.
+
+\bibitem{Peloso:2016gqs}
+Marco Peloso, Lorenzo Sorbo, and Caner Unal.
+\newblock {Rolling axions during inflation: perturbativity and signatures}.
+\newblock 2016.
+
+\bibitem{Krauss:1991qu}
+Lawrence~M. Krauss.
+\newblock {Gravitational waves from global phase transitions}.
+\newblock {\em Phys. Lett.}, B284:229--233, 1992.
+
+\bibitem{JonesSmith:2007ne}
+Katherine Jones-Smith, Lawrence~M. Krauss, and Harsh Mathur.
+\newblock {A Nearly Scale Invariant Spectrum of Gravitational Radiation from
+  Global Phase Transitions}.
+\newblock {\em Phys. Rev. Lett.}, 100:131302, 2008.
+
+\bibitem{Giblin:2011yh}
+John~T. Giblin, Jr., Larry~R. Price, Xavier Siemens, and Brian Vlcek.
+\newblock {Gravitational Waves from Global Second Order Phase Transitions}.
+\newblock {\em JCAP}, 1211:006, 2012.
+
+\bibitem{Figueroa:2012kw}
+Daniel~G. Figueroa, Mark Hindmarsh, and Jon Urrestilla.
+\newblock {Exact Scale-Invariant Background of Gravitational Waves from Cosmic
+  Defects}.
+\newblock {\em Phys. Rev. Lett.}, 110(10):101302, 2013.
+
+\bibitem{Fenu:2013tea}
+Elisa Fenu, Daniel~G. Figueroa, Ruth Durrer, Juan Garcia-Bellido, and Martin
+  Kunz.
+\newblock {Cosmic Microwave Background temperature and polarization
+  anisotropies from the large-N limit of global defects}.
+\newblock {\em Phys. Rev.}, D89(8):083512, 2014.
+
+\bibitem{Baumann:2009mq}
+Daniel Baumann and Matias Zaldarriaga.
+\newblock {Causality and Primordial Tensor Modes}.
+\newblock {\em JCAP}, 0906:013, 2009.
+
+\bibitem{Lee:2014cya}
+Hayden Lee, S.~C. Su, and Daniel Baumann.
+\newblock {The Superhorizon Test of Future B-mode Experiments}.
+\newblock {\em JCAP}, 1502(02):036, 2015.
+
+\bibitem{Lyth:1996im}
+David~H. Lyth.
+\newblock {What would we learn by detecting a gravitational wave signal in the
+  cosmic microwave background anisotropy?}
+\newblock {\em Phys.Rev.Lett.}, 78:1861--1863, 1997.
+
+\bibitem{Sunyaev1970SPEC}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}.
+\newblock {The Spectrum of Primordial Radiation, its Distortions and their
+  Significance}.
+\newblock {\em Comments on Astrophysics and Space Physics}, 2:66, March 1970.
+
+\bibitem{Burigana1993}
+C.~{Burigana}.
+\newblock {Distortions of the CMB Spectrum by Continuous Heating}.
+\newblock In {G.~L.~Chincarini, A.~Iovino, T.~Maccacaro, \& D.~Maccagni},
+  editor, {\em Observational Cosmology}, volume~51 of {\em Astronomical Society
+  of the Pacific Conference Series}, pages 554--+, January 1993.
+
+\bibitem{Hu1993}
+W.~{Hu} and J.~{Silk}.
+\newblock {Thermalization and spectral distortions of the cosmic background
+  radiation}.
+\newblock {\em \prd}, 48:485--502, July 1993.
+
+\bibitem{Chluba2011therm}
+J.~{Chluba} and R.~A. {Sunyaev}.
+\newblock {The evolution of CMB spectral distortions in the early Universe}.
+\newblock {\em \mnras}, 419:1294--1314, January 2012.
+
+\bibitem{Mather1994}
+J.~C. {Mather}, E.~S. {Cheng}, D.~A. {Cottingham}, R.~E. {Eplee}, Jr., D.~J.
+  {Fixsen}, T.~{Hewagama}, R.~B. {Isaacman}, K.~A. {Jensen}, S.~S. {Meyer},
+  P.~D. {Noerdlinger}, S.~M. {Read}, and L.~P. {Rosen}.
+\newblock {Measurement of the cosmic microwave background spectrum by the COBE
+  FIRAS instrument}.
+\newblock {\em \apj}, 420:439--444, January 1994.
+
+\bibitem{Fixsen1996}
+D.~J. {Fixsen}, E.~S. {Cheng}, J.~M. {Gales}, J.~C. {Mather}, R.~A. {Shafer},
+  and E.~L. {Wright}.
+\newblock {The Cosmic Microwave Background Spectrum from the Full COBE FIRAS
+  Data Set}.
+\newblock {\em \apj}, 473:576--+, December 1996.
+
+\bibitem{Chluba2016LCDM}
+J.~{Chluba}.
+\newblock {Which spectral distortions does {$\Lambda$}CDM actually predict?}
+\newblock {\em \mnras}, 460:227--239, July 2016.
+
+\bibitem{Kogut2011PIXIE}
+A.~{Kogut}, D.~J. {Fixsen}, D.~T. {Chuss}, J.~{Dotson}, E.~{Dwek},
+  M.~{Halpern}, G.~F. {Hinshaw}, S.~M. {Meyer}, S.~H. {Moseley}, M.~D.
+  {Seiffert}, D.~N. {Spergel}, and E.~J. {Wollack}.
+\newblock {The Primordial Inflation Explorer (PIXIE): a nulling polarimeter for
+  cosmic microwave background observations}.
+\newblock {\em \jcap}, 7:25--+, July 2011.
+
+\bibitem{PRISM2013WPII}
+P.~{Andr{\'e}}, C.~{Baccigalupi}, A.~{Banday}, D.~{Barbosa}, B.~{Barreiro},
+  J.~{Bartlett}, N.~{Bartolo}, E.~{Battistelli}, R.~{Battye}, G.~{Bendo},
+  A.~{Beno{\#523}t}, J.-P. {Bernard}, M.~{Bersanelli}, M.~{B{\'e}thermin},
+  P.~{Bielewicz}, A.~{Bonaldi}, F.~{Bouchet}, F.~{Boulanger}, J.~{Brand},
+  M.~{Bucher}, C.~{Burigana}, Z.-Y. {Cai}, P.~{Camus}, F.~{Casas},
+  V.~{Casasola}, G.~{Castex}, A.~{Challinor}, J.~{Chluba}, G.~{Chon},
+  S.~{Colafrancesco}, B.~{Comis}, F.~{Cuttaia}, G.~{D'Alessandro}, A.~{Da
+  Silva}, R.~{Davis}, M.~{de Avillez}, P.~{de Bernardis}, M.~{de Petris},
+  A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, F.-X. {D{\'e}sert},
+  C.~{Dickinson}, J.~M. {Diego}, J.~{Dunkley}, T.~{En{\ss}lin}, J.~{Errard},
+  E.~{Falgarone}, P.~{Ferreira}, K.~{Ferri{\`e}re}, F.~{Finelli},
+  A.~{Fletcher}, P.~{Fosalba}, G.~{Fuller}, S.~{Galli}, K.~{Ganga},
+  J.~{Garc{\'{\i}}a-Bellido}, A.~{Ghribi}, M.~{Giard}, Y.~{Giraud-H{\'e}raud},
+  J.~{Gonzalez-Nuevo}, K.~{Grainge}, A.~{Gruppuso}, A.~{Hall}, J.-C.
+  {Hamilton}, M.~{Haverkorn}, C.~{Hernandez-Monteagudo}, D.~{Herranz},
+  M.~{Jackson}, A.~{Jaffe}, R.~{Khatri}, M.~{Kunz}, L.~{Lamagna},
+  M.~{Lattanzi}, P.~{Leahy}, J.~{Lesgourgues}, M.~{Liguori}, E.~{Liuzzo},
+  M.~{Lopez-Caniego}, J.~{Macias-Perez}, B.~{Maffei}, D.~{Maino},
+  A.~{Mangilli}, E.~{Martinez-Gonzalez}, C.~{Martins}, S.~{Masi},
+  M.~{Massardi}, S.~{Matarrese}, A.~{Melchiorri}, J.-B. {Melin}, A.~{Mennella},
+  A.~{Mignano}, M.-A. {Miville-Desch{\^e}nes}, A.~{Monfardini}, A.~{Murphy},
+  P.~{Naselsky}, F.~{Nati}, P.~{Natoli}, M.~{Negrello}, F.~{Noviello},
+  C.~{O'Sullivan}, F.~{Paci}, L.~{Pagano}, R.~{Paladino},
+  N.~{Palanque-Delabrouille}, D.~{Paoletti}, H.~{Peiris}, F.~{Perrotta},
+  F.~{Piacentini}, M.~{Piat}, L.~{Piccirillo}, G.~{Pisano}, G.~{Polenta},
+  A.~{Pollo}, N.~{Ponthieu}, M.~{Remazeilles}, S.~{Ricciardi}, M.~{Roman},
+  C.~{Rosset}, J.-A. {Rubino-Martin}, M.~{Salatino}, A.~{Schillaci},
+  P.~{Shellard}, J.~{Silk}, A.~{Starobinsky}, R.~{Stompor}, R.~{Sunyaev},
+  A.~{Tartari}, L.~{Terenzi}, L.~{Toffolatti}, M.~{Tomasi}, N.~{Trappe},
+  M.~{Tristram}, T.~{Trombetti}, M.~{Tucci}, R.~{Van de Weijgaert}, B.~{Van
+  Tent}, L.~{Verde}, P.~{Vielva}, B.~{Wandelt}, R.~{Watson}, and
+  S.~{Withington}.
+\newblock {PRISM (Polarized Radiation Imaging and Spectroscopy Mission): an
+  extended white paper}.
+\newblock {\em \jcap}, 2:6, February 2014.
+
+\bibitem{Zeldovich1969}
+Y.~B. {Zeldovich} and R.~A. {Sunyaev}.
+\newblock {The Interaction of Matter and Radiation in a Hot-Model Universe}.
+\newblock {\em \apss}, 4:301--316, July 1969.
+
+\bibitem{Sunyaev1970mu}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}.
+\newblock {The interaction of matter and radiation in the hot model of the
+  Universe, II}.
+\newblock {\em \apss}, 7:20--30, April 1970.
+
+\bibitem{Sunyaev1972b}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}.
+\newblock {Formation of Clusters of Galaxies; Protocluster Fragmentation and
+  Intergalactic Gas Heating}.
+\newblock {\em \aap}, 20:189--+, August 1972.
+
+\bibitem{Hu1994pert}
+W.~{Hu}, D.~{Scott}, and J.~{Silk}.
+\newblock {Reionization and cosmic microwave background distortions: A complete
+  treatment of second-order Compton scattering}.
+\newblock {\em \prd}, 49:648--670, January 1994.
+
+\bibitem{Oh2003}
+S.~P. {Oh}, A.~{Cooray}, and M.~{Kamionkowski}.
+\newblock {Sunyaev-Zeldovich fluctuations from the first stars?}
+\newblock {\em \mnras}, 342:L20--L24, June 2003.
+
+\bibitem{Cen1999}
+R.~{Cen} and J.~P. {Ostriker}.
+\newblock {Where Are the Baryons?}
+\newblock {\em \apj}, 514:1--6, March 1999.
+
+\bibitem{Refregier2000}
+A.~{Refregier}, E.~{Komatsu}, D.~N. {Spergel}, and U.-L. {Pen}.
+\newblock {Power spectrum of the Sunyaev-Zel'dovich effect}.
+\newblock {\em \prd}, 61(12):123001, June 2000.
+
+\bibitem{Hill2015}
+J.~C. {Hill}, N.~{Battaglia}, J.~{Chluba}, S.~{Ferraro}, E.~{Schaan}, and D.~N.
+  {Spergel}.
+\newblock {Taking the Universe's Temperature with Spectral Distortions of the
+  Cosmic Microwave Background}.
+\newblock {\em Physical Review Letters}, 115(26):261301, December 2015.
+
+\bibitem{Hu1993b}
+W.~{Hu} and J.~{Silk}.
+\newblock {Thermalization constraints and spectral distortions for massive
+  unstable relic particles}.
+\newblock {\em Physical Review Letters}, 70:2661--2664, May 1993.
+
+\bibitem{Chluba2013fore}
+J.~{Chluba}.
+\newblock {Distinguishing different scenarios of early energy release with
+  spectral distortions of the cosmic microwave background}.
+\newblock {\em \mnras}, 436:2232--2243, December 2013.
+
+\bibitem{Chluba2013PCA}
+J.~{Chluba} and D.~{Jeong}.
+\newblock {Teasing bits of information out of the CMB energy spectrum}.
+\newblock {\em \mnras}, 438:2065--2082, March 2014.
+
+\bibitem{Dimastrogiovanni2015}
+E.~{Dimastrogiovanni}, L.~M. {Krauss}, and J.~{Chluba}.
+\newblock {Constraints on gravitino decay and the scale of inflation using CMB
+  spectral distortions}.
+\newblock {\em \prd}, 94(2):023518, July 2016.
+
+\bibitem{Jedamzik2000}
+K.~{Jedamzik}, V.~{Katalini{\'c}}, and A.~V. {Olinto}.
+\newblock {Limit on Primordial Small-Scale Magnetic Fields from Cosmic
+  Microwave Background Distortions}.
+\newblock {\em PRL}, 85:700--703, July 2000.
+
+\bibitem{Tashiro2012}
+H.~{Tashiro}, E.~{Sabancilar}, and T.~{Vachaspati}.
+\newblock {CMB distortions from superconducting cosmic strings}.
+\newblock {\em \prd}, 85(10):103522, May 2012.
+
+\bibitem{Dolgov2013}
+A.~D. {Dolgov} and D.~{Ejlli}.
+\newblock {Resonant high energy graviton to photon conversion at the
+  post-recombination epoch}.
+\newblock {\em \prd}, 87(10):104007, May 2013.
+
+\bibitem{Tashiro2013}
+H.~{Tashiro}, J.~{Silk}, and D.~J.~E. {Marsh}.
+\newblock {Constraints on primordial magnetic fields from CMB distortions in
+  the axiverse}.
+\newblock {\em \prd}, 88(12):125024, December 2013.
+
+\bibitem{Caldwell2013}
+R.~R. {Caldwell} and N.~A. {Maksimova}.
+\newblock {Spectral distortion in a radially inhomogeneous cosmology}.
+\newblock {\em \prd}, 88(10):103502, November 2013.
+
+\bibitem{Yacine2015DM}
+Y.~{Ali-Ha{\"i}moud}, J.~{Chluba}, and M.~{Kamionkowski}.
+\newblock {Constraints on Dark Matter Interactions with Standard Model
+  Particles from Cosmic Microwave Background Spectral Distortions}.
+\newblock {\em Physical Review Letters}, 115(7):071304, August 2015.
+
+\bibitem{Sunyaev1970diss}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}.
+\newblock {Small scale entropy and adiabatic density perturbations - Antimatter
+  in the Universe}.
+\newblock {\em \apss}, 9:368--382, December 1970.
+
+\bibitem{Daly1991}
+R.~A. {Daly}.
+\newblock {Spectral distortions of the microwave background radiation resulting
+  from the damping of pressure waves}.
+\newblock {\em \apj}, 371:14--28, April 1991.
+
+\bibitem{Hu1994}
+W.~{Hu}, D.~{Scott}, and J.~{Silk}.
+\newblock {Power spectrum constraints from spectral distortions in the cosmic
+  microwave background}.
+\newblock {\em \apjl}, 430:L5--L8, July 1994.
+
+\bibitem{Chluba2012}
+J.~{Chluba}, R.~{Khatri}, and R.~A. {Sunyaev}.
+\newblock {CMB at 2 x 2 order: the dissipation of primordial acoustic waves and
+  the observable part of the associated energy release}.
+\newblock {\em \mnras}, 425:1129--1169, September 2012.
+
+\bibitem{Chluba2012inflaton}
+J.~{Chluba}, A.~L. {Erickcek}, and I.~{Ben-Dayan}.
+\newblock {Probing the Inflaton: Small-scale Power Spectrum Constraints from
+  Measurements of the Cosmic Microwave Background Energy Spectrum}.
+\newblock {\em \apj}, 758:76, October 2012.
+
+\bibitem{Dent2012}
+J.~B. {Dent}, D.~A. {Easson}, and H.~{Tashiro}.
+\newblock {Cosmological constraints from CMB distortion}.
+\newblock {\em \prd}, 86(2):023514, July 2012.
+
+\bibitem{Clesse2014}
+S.~{Clesse}, B.~{Garbrecht}, and Y.~{Zhu}.
+\newblock {Testing inflation and curvaton scenarios with CMB distortions}.
+\newblock {\em \jcap}, 10:046, October 2014.
+
+\bibitem{Cabass2016}
+G.~{Cabass}, A.~{Melchiorri}, and E.~{Pajer}.
+\newblock {{$\mu$} distortions or running: A guaranteed discovery from CMB
+  spectrometry}.
+\newblock {\em \prd}, 93(8):083515, April 2016.
+
+\bibitem{Sunyaev2009}
+R.~A. {Sunyaev} and J.~{Chluba}.
+\newblock {Signals from the epoch of cosmological recombination (Karl
+  Schwarzschild Award Lecture 2008)}.
+\newblock {\em Astronomische Nachrichten}, 330:657--+, 2009.
+
+\bibitem{Chluba2016}
+J.~{Chluba} and Y.~{Ali-Ha{\"i}moud}.
+\newblock {COSMOSPEC: fast and detailed computation of the cosmological
+  recombination radiation from hydrogen and helium}.
+\newblock {\em \mnras}, 456:3494--3508, March 2016.
+
+\bibitem{Planck2013SZ}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
+  M.~{Arnaud}, M.~{Ashdown}, F.~{Atrio-Barandela}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, and et~al.
+\newblock {Planck 2013 results. XX. Cosmology from Sunyaev-Zeldovich cluster
+  counts}.
+\newblock {\em \aap}, 571:A20, November 2014.
+
+\bibitem{Sazonov1998}
+S.~Y. {Sazonov} and R.~A. {Sunyaev}.
+\newblock {Cosmic Microwave Background Radiation in the Direction of a Moving
+  Cluster of Galaxies with Hot Gas: Relativistic Corrections}.
+\newblock {\em \apj}, 508:1--5, November 1998.
+
+\bibitem{Itoh98}
+N.~{Itoh}, Y.~{Kohyama}, and S.~{Nozawa}.
+\newblock Relativistic corrections to the sunyaev-zeldovich effect for clusters
+  of galaxies.
+\newblock {\em \apj}, 502:7, July 1998.
+
+\bibitem{Challinor98}
+A.~{Challinor} and A.~{Lasenby}.
+\newblock Relativistic corrections to the sunyaev-zeldovich effect.
+\newblock {\em \apj}, 499:1, May 1998.
+
+\bibitem{Pajer2012}
+E.~{Pajer} and M.~{Zaldarriaga}.
+\newblock {New Window on Primordial Non-Gaussianity}.
+\newblock {\em Physical Review Letters}, 109(2):021302, July 2012.
+
+\bibitem{Ganc2012}
+J.~{Ganc} and E.~{Komatsu}.
+\newblock {Scale-dependent bias of galaxies and {$\mu$}-type distortion of the
+  cosmic microwave background spectrum from single-field inflation with a
+  modified initial state}.
+\newblock {\em \prd}, 86(2):023518, July 2012.
+
+\bibitem{Biagetti2013}
+M.~{Biagetti}, H.~{Perrier}, A.~{Riotto}, and V.~{Desjacques}.
+\newblock {Testing the running of non-Gaussianity through the CMB
+  {$\mu$}-distortion and the halo bias}.
+\newblock {\em \prd}, 87(6):063521, March 2013.
+
+\bibitem{Razi2015}
+R.~{Emami}, E.~{Dimastrogiovanni}, J.~{Chluba}, and M.~{Kamionkowski}.
+\newblock {Probing the scale dependence of non-Gaussianity with spectral
+  distortions of the cosmic microwave background}.
+\newblock {\em \prd}, 91(12):123531, June 2015.
+
+\bibitem{Jose2005}
+J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, C.~{Hern{\'a}ndez-Monteagudo}, and R.~A.
+  {Sunyaev}.
+\newblock {The imprint of cosmological hydrogen recombination lines on the
+  power spectrum of the CMB}.
+\newblock {\em \aap}, 438:461--473, August 2005.
+
+\bibitem{Carlos2007Pol}
+C.~{Hern{\'a}ndez-Monteagudo}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, and R.~A.
+  {Sunyaev}.
+\newblock {On the influence of resonant scattering on cosmic microwave
+  background polarization anisotropies}.
+\newblock {\em \mnras}, 380:1656--1668, October 2007.
+
+\bibitem{Lewis2013}
+A.~{Lewis}.
+\newblock {Rayleigh scattering: blue sky thinking for future CMB observations}.
+\newblock {\em \jcap}, 8:053, August 2013.
+
+\bibitem{Kaustuv2004}
+K.~{Basu}, C.~{Hern{\'a}ndez-Monteagudo}, and R.~A. {Sunyaev}.
+\newblock {CMB observations and the production of chemical elements at the end
+  of the dark ages}.
+\newblock {\em \aap}, 416:447--466, March 2004.
+
+\bibitem{Schleicher2008}
+D.~R.~G. {Schleicher}, D.~{Galli}, F.~{Palla}, M.~{Camenzind}, R.~S. {Klessen},
+  M.~{Bartelmann}, and S.~C.~O. {Glover}.
+\newblock {Effects of primordial chemistry on the cosmic microwave background}.
+\newblock {\em \aap}, 490:521--535, November 2008.
+
+\bibitem{dole2006}
+H.~{Dole}, G.~{Lagache}, J.-L. {Puget}, K.~I. {Caputi},
+  N.~{Fern{\'a}ndez-Conde}, E.~{Le Floc'h}, C.~{Papovich}, P.~G.
+  {P{\'e}rez-Gonz{\'a}lez}, G.~H. {Rieke}, and M.~{Blaylock}.
+\newblock {The cosmic infrared background resolved by Spitzer. Contributions of
+  mid-infrared galaxies to the far-infrared background}.
+\newblock {\em \aap}, 451:417--429, May 2006.
+
+\bibitem{amblard2011}
+A.~{Amblard}, A.~{Cooray}, P.~{Serra}, B.~{Altieri}, V.~{Arumugam},
+  H.~{Aussel}, A.~{Blain}, J.~{Bock}, A.~{Boselli}, V.~{Buat},
+  N.~{Castro-Rodr{\'{\i}}guez}, A.~{Cava}, P.~{Chanial}, E.~{Chapin}, D.~L.
+  {Clements}, A.~{Conley}, L.~{Conversi}, C.~D. {Dowell}, E.~{Dwek},
+  S.~{Eales}, D.~{Elbaz}, D.~{Farrah}, A.~{Franceschini}, W.~{Gear},
+  J.~{Glenn}, M.~{Griffin}, M.~{Halpern}, E.~{Hatziminaoglou}, E.~{Ibar},
+  K.~{Isaak}, R.~J. {Ivison}, A.~A. {Khostovan}, G.~{Lagache}, L.~{Levenson},
+  N.~{Lu}, S.~{Madden}, B.~{Maffei}, G.~{Mainetti}, L.~{Marchetti},
+  G.~{Marsden}, K.~{Mitchell-Wynne}, H.~T. {Nguyen}, B.~{O'Halloran}, S.~J.
+  {Oliver}, A.~{Omont}, M.~J. {Page}, P.~{Panuzzo}, A.~{Papageorgiou}, C.~P.
+  {Pearson}, I.~{P{\'e}rez-Fournon}, M.~{Pohlen}, N.~{Rangwala}, I.~G.
+  {Roseboom}, M.~{Rowan-Robinson}, M.~S. {Portal}, B.~{Schulz}, D.~{Scott},
+  N.~{Seymour}, D.~L. {Shupe}, A.~J. {Smith}, J.~A. {Stevens}, M.~{Symeonidis},
+  M.~{Trichas}, K.~{Tugwell}, M.~{Vaccari}, E.~{Valiante}, I.~{Valtchanov},
+  J.~D. {Vieira}, L.~{Vigroux}, L.~{Wang}, R.~{Ward}, G.~{Wright}, C.~K. {Xu},
+  and M.~{Zemcov}.
+\newblock {Submillimetre galaxies reside in dark matter haloes with masses
+  greater than 3{$\times$}10$^{11}$ solar masses}.
+\newblock {\em \nat}, 470:510--512, February 2011.
+
+\bibitem{viero2013a}
+M.~P. {Viero}, L.~{Wang}, M.~{Zemcov}, G.~{Addison}, A.~{Amblard},
+  V.~{Arumugam}, H.~{Aussel}, M.~{B{\'e}thermin}, J.~{Bock}, A.~{Boselli},
+  V.~{Buat}, D.~{Burgarella}, C.~M. {Casey}, D.~L. {Clements}, A.~{Conley},
+  L.~{Conversi}, A.~{Cooray}, G.~{De Zotti}, C.~D. {Dowell}, D.~{Farrah},
+  A.~{Franceschini}, J.~{Glenn}, M.~{Griffin}, E.~{Hatziminaoglou},
+  S.~{Heinis}, E.~{Ibar}, R.~J. {Ivison}, G.~{Lagache}, L.~{Levenson},
+  L.~{Marchetti}, G.~{Marsden}, H.~T. {Nguyen}, B.~{O'Halloran}, S.~J.
+  {Oliver}, A.~{Omont}, M.~J. {Page}, A.~{Papageorgiou}, C.~P. {Pearson},
+  I.~{P{\'e}rez-Fournon}, M.~{Pohlen}, D.~{Rigopoulou}, I.~G. {Roseboom},
+  M.~{Rowan-Robinson}, B.~{Schulz}, D.~{Scott}, N.~{Seymour}, D.~L. {Shupe},
+  A.~J. {Smith}, M.~{Symeonidis}, M.~{Vaccari}, I.~{Valtchanov}, J.~D.
+  {Vieira}, J.~{Wardlow}, and C.~K. {Xu}.
+\newblock {HerMES: Cosmic Infrared Background Anisotropies and the Clustering
+  of Dusty Star-forming Galaxies}.
+\newblock {\em \apj}, 772:77, July 2013.
 
 \bibitem{planck2014-XXX}
 {Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
@@ -177,5 +536,110 @@ P.~A.~R. {Ade}, R.~W. {Aikin}, D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff},
 \newblock {Planck intermediate results. XXX. The angular power spectrum of
   polarized dust emission at intermediate and high Galactic latitudes}.
 \newblock {\em ArXiv e-prints}, September 2014.
+
+\bibitem{mak2016}
+D.~S.~Y. {Mak}, A.~{Challinor}, G.~{Efstathiou}, and G.~{Lagache}.
+\newblock {Measurement of CIB power spectra over large sky areas from Planck
+  HFI maps}.
+\newblock {\em ArXiv e-prints}, September 2016.
+
+\bibitem{bethermin2010}
+M.~{B{\'e}thermin}, H.~{Dole}, M.~{Cousin}, and N.~{Bavouzet}.
+\newblock {Submillimeter number counts at 250 {$\mu$}m, 350 {$\mu$}m and 500
+  {$\mu$}m in BLAST data}.
+\newblock {\em \aap}, 516:A43, June 2010.
+
+\bibitem{knox2001}
+L.~{Knox}, A.~{Cooray}, D.~{Eisenstein}, and Z.~{Haiman}.
+\newblock {Probing Early Structure Formation with Far-Infrared Background
+  Correlations}.
+\newblock {\em \apj}, 550:7--20, March 2001.
+
+\bibitem{cooray2002}
+A.~{Cooray} and R.~{Sheth}.
+\newblock {Halo models of large scale structure}.
+\newblock {\em \physrep}, 372:1--129, December 2002.
+
+\bibitem{shang2012}
+C.~{Shang}, Z.~{Haiman}, L.~{Knox}, and S.~P. {Oh}.
+\newblock {Improved models for cosmic infrared background anisotropies: new
+  constraints on the infrared galaxy population}.
+\newblock {\em \mnras}, 421:2832--2845, April 2012.
+
+\bibitem{planckXVIII}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
+  M.~{Arnaud}, M.~{Ashdown}, F.~{Atrio-Barandela}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, and et~al.
+\newblock {Planck 2013 results. XVIII. The gravitational lensing-infrared
+  background correlation}.
+\newblock {\em \aap}, 571:A18, November 2014.
+
+\bibitem{madau2014}
+P.~{Madau} and M.~{Dickinson}.
+\newblock {Cosmic Star-Formation History}.
+\newblock {\em \araa}, 52:415--486, August 2014.
+
+\bibitem{planck2016like}
+{Planck Collaboration}, N.~{Aghanim}, M.~{Arnaud}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G. {Bartlett},
+  N.~{Bartolo}, and et~al.
+\newblock {Planck 2015 results. XI. CMB power spectra, likelihoods, and
+  robustness of parameters}.
+\newblock {\em \aap}, 594:A11, September 2016.
+
+\bibitem{holder2013}
+G.~P. {Holder}, M.~P. {Viero}, O.~{Zahn}, K.~A. {Aird}, B.~A. {Benson},
+  S.~{Bhattacharya}, L.~E. {Bleem}, J.~{Bock}, M.~{Brodwin}, J.~E. {Carlstrom},
+  C.~L. {Chang}, H.-M. {Cho}, A.~{Conley}, T.~M. {Crawford}, A.~T. {Crites},
+  T.~{de Haan}, M.~A. {Dobbs}, J.~{Dudley}, E.~M. {George}, N.~W. {Halverson},
+  W.~L. {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D. {Hrubes}, R.~{Keisler},
+  L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker}, D.~{Luong-Van},
+  G.~{Marsden}, D.~P. {Marrone}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer},
+  M.~{Millea}, J.~J. {Mohr}, T.~E. {Montroy}, S.~{Padin}, T.~{Plagge},
+  C.~{Pryke}, C.~L. {Reichardt}, J.~E. {Ruhl}, J.~T. {Sayre}, K.~K. {Schaffer},
+  B.~{Schulz}, L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler}, Z.~{Staniszewski},
+  A.~A. {Stark}, K.~T. {Story}, A.~{van Engelen}, K.~{Vanderlinde}, and Vieira.
+
+\bibitem{wang2015}
+L.~{Wang}, M.~{Viero}, N.~P. {Ross}, V.~{Asboth}, M.~{B{\'e}thermin},
+  J.~{Bock}, D.~{Clements}, A.~{Conley}, A.~{Cooray}, D.~{Farrah}, A.~{Hajian},
+  J.~{Han}, G.~{Lagache}, G.~{Marsden}, A.~{Myers}, P.~{Norberg}, S.~{Oliver},
+  M.~{Page}, M.~{Symeonidis}, B.~{Schulz}, W.~{Wang}, and M.~{Zemcov}.
+\newblock {Co-evolution of black hole growth and star formation from a
+  cross-correlation analysis between quasars and the cosmic infrared
+  background}.
+\newblock {\em \mnras}, 449:4476--4493, June 2015.
+
+\bibitem{serra2014}
+P.~{Serra}, G.~{Lagache}, O.~{Dor{\'e}}, A.~{Pullen}, and M.~{White}.
+\newblock {Cross-correlation of cosmic far-infrared background anisotropies
+  with large scale structures}.
+\newblock {\em \aap}, 570:A98, October 2014.
+
+\bibitem{fermi2016}
+M.~{Fornasa}, A.~{Cuoco}, J.~{Zavala}, J.~M. {Gaskins}, M.~A. {Sanchez-Conde},
+  G.~{Gomez-Vargas}, E.~{Komatsu}, T.~{Linden}, F.~{Prada}, F.~{Zandanel}, and
+  A.~{Morselli}.
+\newblock {The angular power spectrum of the diffuse gamma-ray emission as
+  measured by the Fermi Large Area Telescope and constraints on its Dark Matter
+  interpretation}.
+\newblock {\em ArXiv e-prints}, August 2016.
+
+\bibitem{cooray2016}
+C.~{Feng}, A.~{Cooray}, and B.~{Keating}.
+\newblock {Planck Lensing and Cosmic Infrared Background Cross-Correlation with
+  Fermi-LAT: Tracing Dark Matter Signals in the $\gamma$-ray Background}.
+\newblock {\em ArXiv e-prints}, August 2016.
+
+\bibitem{sherwin2015}
+B.~D. {Sherwin} and M.~{Schmittfull}.
+\newblock {Delensing the CMB with the cosmic infrared background}.
+\newblock {\em \prd}, 92(4):043005, August 2015.
+
+\bibitem{larsen2016}
+P.~{Larsen}, A.~{Challinor}, B.~D. {Sherwin}, and D.~{Mak}.
+\newblock {Demonstration of cosmic microwave background delensing using the
+  cosmic infrared background}.
+\newblock {\em ArXiv e-prints}, July 2016.
 
 \end{thebibliography}

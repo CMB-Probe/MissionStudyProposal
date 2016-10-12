@@ -3,46 +3,62 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MissionStudyProposal.aux
 The style file: unsrt.bst
 Database file #1: mybib.bib
-Warning--I didn't find a database entry for "2016PhRvL.116c1302B"
-You've used 23 entries,
+Database file #2: Ref_SD.bib
+Database file #3: Ref_CIB.bib
+I was expecting an "="---line 33 of file Ref_CIB.bib
+ : Vieira}, j.~d. 
+ :                and {Williamson}, R. and {Zemcov}, M.},
+I'm skipping whatever remains of this entry
+You're missing a field name---line 341 of file Ref_CIB.bib
+ : 
+ : %   author = {{Planck Collaboration} and {Ade}, P.~A.~R. and {Aghanim}, N. and
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Array:2015xqh"
+Warning--I didn't find a database entry for "Kallosh:2013hoa"
+Warning--empty journal in Peloso:2016gqs
+Warning--empty title in holder2013
+Warning--empty journal in holder2013
+Warning--empty year in holder2013
+You've used 94 entries,
             1791 wiz_defined-function locations,
-            581 strings with 11363 characters,
-and the built_in function-call counts, 8017 in all, are:
-= -- 418
-> -- 946
-< -- 0
-+ -- 325
-- -- 302
-* -- 831
-:= -- 1539
-add.period$ -- 70
-call.type$ -- 23
-change.case$ -- 22
+            1007 strings with 27710 characters,
+and the built_in function-call counts, 26928 in all, are:
+= -- 1718
+> -- 2451
+< -- 2
++ -- 852
+- -- 758
+* -- 2602
+:= -- 4889
+add.period$ -- 280
+call.type$ -- 94
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 200
-empty$ -- 479
-format.name$ -- 302
-if$ -- 1552
+cite$ -- 98
+duplicate$ -- 848
+empty$ -- 1998
+format.name$ -- 758
+if$ -- 5465
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 24
-newline$ -- 119
-num.names$ -- 23
-pop$ -- 47
+int.to.str$ -- 94
+missing$ -- 95
+newline$ -- 471
+num.names$ -- 96
+pop$ -- 137
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 73
+skip$ -- 319
 stack$ -- 0
-substring$ -- 337
-swap$ -- 23
-text.length$ -- 0
+substring$ -- 1405
+swap$ -- 104
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 39
-width$ -- 25
-write$ -- 251
-(There was 1 warning)
+warning$ -- 4
+while$ -- 178
+width$ -- 96
+write$ -- 1021
+(There were 2 error messages)
