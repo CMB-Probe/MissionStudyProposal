@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2016 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2016 16:33
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -329,7 +329,7 @@ Package natbib Warning: Citation `Kallosh:2013hoa' on page 2 undefined on input
 
 [2] [3 <./figs/cmb_powspec_v4.pdf>] [4 <./figs/nsrlabeledrp01v10s.pdf>]
 [5]
-Overfull \hbox (6.82108pt too wide) in paragraph at lines 177--178
+Overfull \hbox (6.82108pt too wide) in paragraph at lines 109--110
 []\OT1/ptm/m/n/12 The cur-rent limit on $\OML/cmm/m/it/12 ^^\$ \OT1/ptm/m/n/12 
 from the Planck satel-lite of $\OML/cmm/m/it/12 ^^\ \OT1/cmr/m/n/12 = 0\OML/cmm
 /m/it/12 :\OT1/cmr/m/n/12 055 \OMS/cmsy/m/n/12 ^^F \OT1/cmr/m/n/12 0\OML/cmm/m/
@@ -342,27 +342,27 @@ it/12 :\OT1/cmr/m/n/12 009$ \OT1/ptm/m/n/12 ul-ti-mately lim-its $\OML/cmm/m/it
 File: figs/Mnu_tauprior.pdf Graphic file (type pdf)
 
 <use figs/Mnu_tauprior.pdf>
-Package pdftex.def Info: figs/Mnu_tauprior.pdf used on input line 182.
+Package pdftex.def Info: figs/Mnu_tauprior.pdf used on input line 114.
 (pdftex.def)             Requested size: 211.3883pt x 171.64786pt.
  <figs/Neff.pdf, id=92, 536.50137pt x 439.06097pt>
 File: figs/Neff.pdf Graphic file (type pdf)
 
 <use figs/Neff.pdf>
-Package pdftex.def Info: figs/Neff.pdf used on input line 183.
+Package pdftex.def Info: figs/Neff.pdf used on input line 115.
 (pdftex.def)             Requested size: 211.3883pt x 172.99506pt.
  [6 <./figs/Mnu_tauprior.pdf> <./figs/Neff.pdf
 
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./figs/Neff.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [7]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 277.
+>] [7] [8]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 225.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 277.
- [8])
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 225.
+)
 (./foregrounds.tex
 <Figures/P15_2_12_rp001.pdf, id=169, 231.26399pt x 144.54pt>
 File: Figures/P15_2_12_rp001.pdf Graphic file (type pdf)
@@ -381,7 +381,8 @@ Package pdftex.def Info: Figures/P353_N_2_12.pdf used on input line 12.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/overview_pol_v4_fsky_noplanck.pdf, id=171, 670.505pt x 478.78876pt>
+[9]
+<Figures/overview_pol_v4_fsky_noplanck.pdf, id=174, 670.505pt x 478.78876pt>
 File: Figures/overview_pol_v4_fsky_noplanck.pdf Graphic file (type pdf)
 
 <use Figures/overview_pol_v4_fsky_noplanck.pdf>
@@ -389,13 +390,13 @@ Package pdftex.def Info: Figures/overview_pol_v4_fsky_noplanck.pdf used on inpu
 t line 24.
 (pdftex.def)             Requested size: 235.5998pt x 168.22878pt.
 
-<Figures/clbb_freq.pdf, id=172, 1300.86pt x 1084.05pt>
+<Figures/clbb_freq.pdf, id=175, 1300.86pt x 1084.05pt>
 File: Figures/clbb_freq.pdf Graphic file (type pdf)
 
 <use Figures/clbb_freq.pdf>
 Package pdftex.def Info: Figures/clbb_freq.pdf used on input line 25.
 (pdftex.def)             Requested size: 225.48204pt x 187.89204pt.
- [9] [10 <./Figures/P15_2_12_rp001.pdf> <./Figures/P353_N_2_12.pdf
+ [10 <./Figures/P15_2_12_rp001.pdf> <./Figures/P353_N_2_12.pdf
 
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./Figures/P353_N_2_12.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
@@ -450,7 +451,7 @@ f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on MissionStudyProposal.pdf (25 pages, 1259484 bytes).
+Output written on MissionStudyProposal.pdf (25 pages, 1259816 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
