@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2016 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 OCT 2016 12:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -355,13 +355,13 @@ Package pdftex.def Info: figs/Neff.pdf used on input line 117.
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./figs/Neff.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >] [8]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 261.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 263.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 263.
 )
 (./foregrounds.tex
 <Figures/P15_2_12_rp001.pdf, id=169, 231.26399pt x 144.54pt>
@@ -437,7 +437,7 @@ f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on MissionStudyProposal.pdf (25 pages, 1261650 bytes).
+Output written on MissionStudyProposal.pdf (25 pages, 1261221 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
