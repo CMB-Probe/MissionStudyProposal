@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 OCT 2016 12:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 OCT 2016 17:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -354,16 +354,7 @@ Package pdftex.def Info: figs/Neff.pdf used on input line 117.
 
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./figs/Neff.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [8]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 263.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 263.
-)
-(./foregrounds.tex
+>] [8]) (./foregrounds.tex
 <Figures/P15_2_12_rp001.pdf, id=169, 231.26399pt x 144.54pt>
 File: Figures/P15_2_12_rp001.pdf Graphic file (type pdf)
 
@@ -378,11 +369,7 @@ File: Figures/P353_N_2_12.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/P353_N_2_12.pdf used on input line 12.
 (pdftex.def)             Requested size: 231.26378pt x 144.54623pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9]
-<Figures/overview_pol_v4_fsky_noplanck.pdf, id=174, 670.505pt x 478.78876pt>
+<Figures/overview_pol_v4_fsky_noplanck.pdf, id=171, 670.505pt x 478.78876pt>
 File: Figures/overview_pol_v4_fsky_noplanck.pdf Graphic file (type pdf)
 
 <use Figures/overview_pol_v4_fsky_noplanck.pdf>
@@ -390,22 +377,19 @@ Package pdftex.def Info: Figures/overview_pol_v4_fsky_noplanck.pdf used on inpu
 t line 24.
 (pdftex.def)             Requested size: 235.5998pt x 168.22878pt.
 
-<Figures/clbb_freq.pdf, id=175, 1300.86pt x 1084.05pt>
+<Figures/clbb_freq.pdf, id=172, 1300.86pt x 1084.05pt>
 File: Figures/clbb_freq.pdf Graphic file (type pdf)
 
 <use Figures/clbb_freq.pdf>
 Package pdftex.def Info: Figures/clbb_freq.pdf used on input line 25.
 (pdftex.def)             Requested size: 225.48204pt x 187.89204pt.
- [10 <./Figures/P15_2_12_rp001.pdf> <./Figures/P353_N_2_12.pdf
+ [9 <./Figures/P15_2_12_rp001.pdf> <./Figures/P353_N_2_12.pdf
 
 pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./Figures/P353_N_2_12.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <./Figures/overview_pol_v4_fsky_noplanck.pdf> <./Figures/clbb_freq.pdf
-
-pdfTeX warning: /Library/Tex/texbin/pdflatex (file ./Figures/clbb_freq.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
->]) (./systematics.tex [11]) (./current_effort_and_probe.tex) (./technology.tex
-) (./mission_study.tex) [12] (./MissionStudyProposal.bbl [13] [14] [15]
+>]) (./systematics.tex [10 <./Figures/overview_pol_v4_fsky_noplanck.pdf> <./Fig
+ures/clbb_freq.pdf>]) (./current_effort_and_probe.tex) (./technology.tex)
+[11] (./mission_study.tex) [12] (./MissionStudyProposal.bbl [13] [14] [15]
 [16] [17] [18] [19]) [20] [21] [30] [44] (./budget.tex) [48]
 
 Package natbib Warning: There were undefined citations.
@@ -414,12 +398,15 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3541 strings out of 493089
- 47942 string characters out of 6134842
+ 3524 strings out of 493089
+ 47640 string characters out of 6134842
  112722 words of memory out of 5000000
- 6925 multiletter control sequences out of 15000+600000
+ 6911 multiletter control sequences out of 15000+600000
  17446 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,43p,1730b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -437,7 +424,7 @@ f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on MissionStudyProposal.pdf (25 pages, 1261221 bytes).
+Output written on MissionStudyProposal.pdf (25 pages, 1260383 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  203 compressed objects within 3 object streams
