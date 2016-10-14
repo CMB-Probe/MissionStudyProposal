@@ -5,60 +5,48 @@ The style file: unsrt.bst
 Database file #1: mybib.bib
 Database file #2: Ref_SD.bib
 Database file #3: Ref_CIB.bib
-I was expecting an "="---line 33 of file Ref_CIB.bib
- : Vieira}, j.~d. 
- :                and {Williamson}, R. and {Zemcov}, M.},
-I'm skipping whatever remains of this entry
-You're missing a field name---line 341 of file Ref_CIB.bib
- : 
- : %   author = {{Planck Collaboration} and {Ade}, P.~A.~R. and {Aghanim}, N. and
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Array:2015xqh"
 Warning--I didn't find a database entry for "Kallosh:2013hoa"
 Warning--empty journal in Peloso:2016gqs
-Warning--empty title in holder2013
-Warning--empty journal in holder2013
-Warning--empty year in holder2013
-You've used 94 entries,
+You've used 85 entries,
             1791 wiz_defined-function locations,
-            1007 strings with 27715 characters,
-and the built_in function-call counts, 26928 in all, are:
-= -- 1718
-> -- 2451
+            963 strings with 22885 characters,
+and the built_in function-call counts, 22658 in all, are:
+= -- 1566
+> -- 1800
 < -- 2
-+ -- 852
-- -- 758
-* -- 2602
-:= -- 4889
-add.period$ -- 280
-call.type$ -- 94
-change.case$ -- 92
++ -- 632
+- -- 547
+* -- 2083
+:= -- 4021
+add.period$ -- 255
+call.type$ -- 85
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 848
-empty$ -- 1998
-format.name$ -- 758
-if$ -- 5465
+cite$ -- 86
+duplicate$ -- 769
+empty$ -- 1821
+format.name$ -- 547
+if$ -- 4691
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 95
-newline$ -- 471
-num.names$ -- 96
-pop$ -- 137
+int.to.str$ -- 85
+missing$ -- 86
+newline$ -- 428
+num.names$ -- 87
+pop$ -- 120
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 319
+skip$ -- 291
 stack$ -- 0
-substring$ -- 1405
-swap$ -- 104
+substring$ -- 1294
+swap$ -- 96
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 178
-width$ -- 96
-write$ -- 1021
-(There were 2 error messages)
+warning$ -- 1
+while$ -- 162
+width$ -- 87
+write$ -- 929
+(There were 3 warnings)

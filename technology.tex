@@ -6,3 +6,69 @@
 
 \comred{2 pages. Discuss the technologies, their TRL, and what will be studied }
 % Toki, Jeff
+
+A fourth generation CMB satellite targeting a map sensitivity of $\sim1 \mu\mathrm{k-arcmin}$ will require, extremely sensitive detector arrays, tight control over systematics, and ability to reject polarized foregrounds as is described in Section 1.2.
+Given the frequency dependance of synchrotron and dust foregrounds, this last requirement translates into the need for a large number of spectral bands covering the approximate frequency range from $\sim30$~GHz to $\sim800$~GHz.
+Development of the CMB technologies needed to meet these requirements is actively being pursued by many groups who are also demonstrating these technologies on ground, balloon, and satellite platforms.   We describe the status and needs in the areas of telescopes, optics, detector coupling, detectors, and readout.
+
+\paragraph{Telescopes:}  Carbon Fiber Reinforced Polymer (CFRP) mirrors are at TRL 9 as they have flown on the Planck sattelite. Their 1.9x1.5 m mirror weighted only 28 lbs and met all surface quality requirements. However, small deformations in the mirror caused by its structural supports had a measurable impact to the beam far-sidelobes that was not caputred by preflight measurements or the corresponding beam modeling.  Future CMB satellites will require improved pre-flight characterization of {\it polarized beam} at operating temperature augmented by improved simulation tools to meet even more systematics requirements.  Current ground and balloon born optical designs achieve large field of views (FOVs) with reflective and refractive designs; related designs and their implementation should studied in the context of a satellite mission as the sensitivity requirements lead to the need to maximize the size of the FOV while fitting within the tight mass and size constraints imposed by a space mission.  Given the heritage of past satellite missions it will be possible to develop a telescope design that meets the requirements for a future mission and uses high TRL components.
+
+%State of the art CMB telescopes have apertures ranging from 0.3 to 10 meters in diameter with   designs including: on-axis refractive telescope (e.g. BICEP, SPIDER), crossed Dragone reflective telescope (e.g. QUIET, ABS) , and off-axis Gregorian reflective telescope (e.g. Planck, SPT, ACT, Simons Array, CLASS, EBEX). 
+
+\paragraph{Optical Coupling:} 
+The need for sensitivity drives the push for high efficiency optics; wide bandwidth to compliment mutichroic detector ; infrared filters to maximize cryogenic performance; and polarization modulators to suppress $1/f$ noise and mitigate instrument systematics.  The CMB field has made tremendous progress recently by drawing on advances in materials, processing techniques,  and developments in electrical engineering including meta-material research.  Single crystals such as silicon and sapphire are attractive since they offer extremely low dielectric losses and high indices of refraction to better manipulate light.  New coating techniques have been developed for silicon and sapphire that span 2:1 bandwidth (TRL 5+ for silicon) and can realize up to 5:1 bandwidth.  EBEX deployed broadband cryogenic polarization modulator with a superconducting bearing that covered 150~GHz band to 410~GHz band raising the modulators to TRL 5+ for space.  Meta-material metal-mesh optical filters were deployed with the Planck satellite and they are extensively used by ground based and balloon experiments making these TRL6 optical elements. It is necessary to develop a plan for a satellite mission that will cover $\sim30$~GHz to $\sim800$~GHz.  Two configurations could be considered: multiple optical paths with $<3:1$ bandwidth and a potentially simpler design with only two optical paths with  $\sim5:1$ bandwidth.   These studies include evaluating the design tradeoffs inherent to these approaches, developing the new coatings needed, and  evaluating the promise of hybrid approaches where filters and lenses are implemented in the same optical elements.  In addition, the cryogenic rotation mechanism should be demonstrated at the robustness (eg lifetime) needed for for a satellite mission.
+
+
+\paragraph{Detector Coupling:} 
+The focal-plane feed determines the shape and polarization properties of the pixel beams and therefore plays a strong role in controlling systematic errors. 
+The feed design also can determine the total bandwidth and number of photometric bands of each pixel which is important for the efficient use of a telescope's focal plane area. 
+CMB experiments developed broadband multi-chroic {\it detector} to increase optical throughput of a focal plane. 
+Broadband feed captures signal over wide frequency range. 
+Then on-chip superconducting filter partitions signal into multiple frequency bands prior to detection. 
+Broadband detectors were realized with spline profiled horn and lenslet coupled antenna. 
+Broadband horn detector deployed a pixel that covers 2.3:1 bandwidth with on going development for extending bandwidth to 6:1.
+Broadband lenslet coupled antenna will deploy 3:1 bandwidth detector this year.
+Lenslet coupled antenna demonstrated 5:1 bandwidth in laboratory. 
+RF-techniques to partition broadband signals into multiple band are mature.
+For a future CMB polarization satellite mission, broadband feed should be demonstrated at high frequency where alignment and line width for micro-fabrication becomes challenging. 
+Detectors for CMB satellite mission were hand picked one by one for optimal performance.
+Next generation of detector array will be fabricated on a silicon wafer. 
+Micro-fabrication process should demonstrate high yield and uniformity across a wafer that can meet tight requirement of satellite mission.
+Also detector test need to able to characterize detector beyond the level of systematic required by next generation CMB satellite experiment.
+
+The Planck HFI deployed Neutron Transmutation Doped Germanium high-resistance bolometer at 100 milli-Kelvin to achieve photon noise limited detector performance.
+A Transition Edge Sensor (TES) bolometer uses a steep transition of superconducting metal to improve linearity of the detector.
+TES bolometers have been deployed on 100 milli-Kelvin and 250 milli-Kelvin platform. 
+TES bolometers have been deployed across ground based and balloon CMB experiments spanning 40~GHz-410~GHz with detectors achieving NEPs of 20-50 aW/$\sqrt{\textrm{Hz}}$, nearly background limited at CMB frequencies. 
+TES bolometers deployed at low optical frequencies ($\sim$40\,GHz) and balloon-borne payloads should realized even lower NEPs of $\sim$10\,aW/$\sqrt{\textrm{Hz}}$. 
+Emerging detector technology for CMB experiment is kinetic-inductance detector (KIDs). 
+The KIDs detector detects signal as change in kinetic inductance. 
+KIDs detectors can be frequency multiplexed easily to $\sim1,000$ detectors.
+Recently, on-sky demonstration at 150 GHz and 230 GHz was done with lumped element KID detector. 
+Noise performance of KID detector at low frequency channels ($< 40$~GHz) need some improvement to be photon-noise limited. 
+Currently there is no CMB polarizatin power spectrum data produced with KID detector.
+Coupling between RF (100 GHz) signal to micro-wave KID (MKID) detector is in a development stage.
+Planck detectors experienced unexpectedly high rate of cosmic ray events.
+Data was successfully cleaned with analysis technique. 
+Study of impact of cosmic rays on a detector is crucial for next CMB satellite mission.
+
+Multiplexed readout is being used by CMB experiments to readout thousands of TES bolometers, and readout multiplexing is built into KID detector architecture. 
+Voltage bias and low impedance of a TES bolometer facilitates multiplexing readout by Superconducting Quantum Interference Device (SQUID). 
+Time domain multiplexing uses a SQUID at milli-Kelvin as a switch to rapidly cycle through bolometers. 
+Highest achieved multiplexing factor is 64 channels.
+Frequency domain multiplexing uses superconducting resonators to assign bolometers to different frequency channels.
+Highest achieved multiplexing factor is 68 channels.
+New readout scheme, such as microwave SQUID readout, is emerging to increase multiplexing factor for TES bolometer. 
+MKID detector architecture has multiple resonators coming off from a transmission line. 
+A resonator is both a detector and multiplexer. 
+MKID demonstrated multiplexing factor that exceeds 1,000 channels. 
+For next generation satellite experiment that will readout over thousands detectors require high multiplexing factor.
+Multiplexing factor is directly related to readout complexity and power consumption.
+Also the Planck mission experienced ADC non-linearity, thus extensive characterization of end to end readout archtecture should be performed pre-flight. 
+
+A future CMB satellite mission offers exciting opportunity for millimeter wave polarization science. 
+Experience from Planck mission will be studied to learn lessons for the future mission.
+Development for CMB instrumentation is an active field with many institutions developing new technologies for ground based, balloon, and proposed satellite missions.
+For a satellite instrumentation, there is a difficult trade off between desire to have high performance instrument and desire to keep cost manageable.
+Many developments that is going on for ground based and balloon experiment have similar goal as satellite mission that collaborative development across all platform will be beneficial.
+

@@ -483,52 +483,6 @@ D.~R.~G. {Schleicher}, D.~{Galli}, F.~{Palla}, M.~{Camenzind}, R.~S. {Klessen},
 \newblock {Effects of primordial chemistry on the cosmic microwave background}.
 \newblock {\em \aap}, 490:521--535, November 2008.
 
-\bibitem{dole2006}
-H.~{Dole}, G.~{Lagache}, J.-L. {Puget}, K.~I. {Caputi},
-  N.~{Fern{\'a}ndez-Conde}, E.~{Le Floc'h}, C.~{Papovich}, P.~G.
-  {P{\'e}rez-Gonz{\'a}lez}, G.~H. {Rieke}, and M.~{Blaylock}.
-\newblock {The cosmic infrared background resolved by Spitzer. Contributions of
-  mid-infrared galaxies to the far-infrared background}.
-\newblock {\em \aap}, 451:417--429, May 2006.
-
-\bibitem{amblard2011}
-A.~{Amblard}, A.~{Cooray}, P.~{Serra}, B.~{Altieri}, V.~{Arumugam},
-  H.~{Aussel}, A.~{Blain}, J.~{Bock}, A.~{Boselli}, V.~{Buat},
-  N.~{Castro-Rodr{\'{\i}}guez}, A.~{Cava}, P.~{Chanial}, E.~{Chapin}, D.~L.
-  {Clements}, A.~{Conley}, L.~{Conversi}, C.~D. {Dowell}, E.~{Dwek},
-  S.~{Eales}, D.~{Elbaz}, D.~{Farrah}, A.~{Franceschini}, W.~{Gear},
-  J.~{Glenn}, M.~{Griffin}, M.~{Halpern}, E.~{Hatziminaoglou}, E.~{Ibar},
-  K.~{Isaak}, R.~J. {Ivison}, A.~A. {Khostovan}, G.~{Lagache}, L.~{Levenson},
-  N.~{Lu}, S.~{Madden}, B.~{Maffei}, G.~{Mainetti}, L.~{Marchetti},
-  G.~{Marsden}, K.~{Mitchell-Wynne}, H.~T. {Nguyen}, B.~{O'Halloran}, S.~J.
-  {Oliver}, A.~{Omont}, M.~J. {Page}, P.~{Panuzzo}, A.~{Papageorgiou}, C.~P.
-  {Pearson}, I.~{P{\'e}rez-Fournon}, M.~{Pohlen}, N.~{Rangwala}, I.~G.
-  {Roseboom}, M.~{Rowan-Robinson}, M.~S. {Portal}, B.~{Schulz}, D.~{Scott},
-  N.~{Seymour}, D.~L. {Shupe}, A.~J. {Smith}, J.~A. {Stevens}, M.~{Symeonidis},
-  M.~{Trichas}, K.~{Tugwell}, M.~{Vaccari}, E.~{Valiante}, I.~{Valtchanov},
-  J.~D. {Vieira}, L.~{Vigroux}, L.~{Wang}, R.~{Ward}, G.~{Wright}, C.~K. {Xu},
-  and M.~{Zemcov}.
-\newblock {Submillimetre galaxies reside in dark matter haloes with masses
-  greater than 3{$\times$}10$^{11}$ solar masses}.
-\newblock {\em Nature}, 470:510--512, February 2011.
-
-\bibitem{viero2013a}
-M.~P. {Viero}, L.~{Wang}, M.~{Zemcov}, G.~{Addison}, A.~{Amblard},
-  V.~{Arumugam}, H.~{Aussel}, M.~{B{\'e}thermin}, J.~{Bock}, A.~{Boselli},
-  V.~{Buat}, D.~{Burgarella}, C.~M. {Casey}, D.~L. {Clements}, A.~{Conley},
-  L.~{Conversi}, A.~{Cooray}, G.~{De Zotti}, C.~D. {Dowell}, D.~{Farrah},
-  A.~{Franceschini}, J.~{Glenn}, M.~{Griffin}, E.~{Hatziminaoglou},
-  S.~{Heinis}, E.~{Ibar}, R.~J. {Ivison}, G.~{Lagache}, L.~{Levenson},
-  L.~{Marchetti}, G.~{Marsden}, H.~T. {Nguyen}, B.~{O'Halloran}, S.~J.
-  {Oliver}, A.~{Omont}, M.~J. {Page}, A.~{Papageorgiou}, C.~P. {Pearson},
-  I.~{P{\'e}rez-Fournon}, M.~{Pohlen}, D.~{Rigopoulou}, I.~G. {Roseboom},
-  M.~{Rowan-Robinson}, B.~{Schulz}, D.~{Scott}, N.~{Seymour}, D.~L. {Shupe},
-  A.~J. {Smith}, M.~{Symeonidis}, M.~{Vaccari}, I.~{Valtchanov}, J.~D.
-  {Vieira}, J.~{Wardlow}, and C.~K. {Xu}.
-\newblock {HerMES: Cosmic Infrared Background Anisotropies and the Clustering
-  of Dusty Star-forming Galaxies}.
-\newblock {\em \apj}, 772:77, July 2013.
-
 \bibitem{planck2014-XXX}
 {Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
   J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G.
@@ -536,35 +490,6 @@ M.~P. {Viero}, L.~{Wang}, M.~{Zemcov}, G.~{Addison}, A.~{Amblard},
 \newblock {Planck intermediate results. XXX. The angular power spectrum of
   polarized dust emission at intermediate and high Galactic latitudes}.
 \newblock {\em ArXiv e-prints}, September 2014.
-
-\bibitem{mak2016}
-D.~S.~Y. {Mak}, A.~{Challinor}, G.~{Efstathiou}, and G.~{Lagache}.
-\newblock {Measurement of CIB power spectra over large sky areas from Planck
-  HFI maps}.
-\newblock {\em ArXiv e-prints}, September 2016.
-
-\bibitem{bethermin2010}
-M.~{B{\'e}thermin}, H.~{Dole}, M.~{Cousin}, and N.~{Bavouzet}.
-\newblock {Submillimeter number counts at 250 {$\mu$}m, 350 {$\mu$}m and 500
-  {$\mu$}m in BLAST data}.
-\newblock {\em \aap}, 516:A43, June 2010.
-
-\bibitem{knox2001}
-L.~{Knox}, A.~{Cooray}, D.~{Eisenstein}, and Z.~{Haiman}.
-\newblock {Probing Early Structure Formation with Far-Infrared Background
-  Correlations}.
-\newblock {\em \apj}, 550:7--20, March 2001.
-
-\bibitem{cooray2002}
-A.~{Cooray} and R.~{Sheth}.
-\newblock {Halo models of large scale structure}.
-\newblock {\em Phys.~Rep.}, 372:1--129, December 2002.
-
-\bibitem{shang2012}
-C.~{Shang}, Z.~{Haiman}, L.~{Knox}, and S.~P. {Oh}.
-\newblock {Improved models for cosmic infrared background anisotropies: new
-  constraints on the infrared galaxy population}.
-\newblock {\em \mnras}, 421:2832--2845, April 2012.
 
 \bibitem{planckXVIII}
 {Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, C.~{Armitage-Caplan},
@@ -578,27 +503,6 @@ C.~{Shang}, Z.~{Haiman}, L.~{Knox}, and S.~P. {Oh}.
 P.~{Madau} and M.~{Dickinson}.
 \newblock {Cosmic Star-Formation History}.
 \newblock {\em ARA\&A}, 52:415--486, August 2014.
-
-\bibitem{planck2016like}
-{Planck Collaboration}, N.~{Aghanim}, M.~{Arnaud}, M.~{Ashdown}, J.~{Aumont},
-  C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G. {Bartlett},
-  N.~{Bartolo}, and et~al.
-\newblock {Planck 2015 results. XI. CMB power spectra, likelihoods, and
-  robustness of parameters}.
-\newblock {\em \aap}, 594:A11, September 2016.
-
-\bibitem{holder2013}
-G.~P. {Holder}, M.~P. {Viero}, O.~{Zahn}, K.~A. {Aird}, B.~A. {Benson},
-  S.~{Bhattacharya}, L.~E. {Bleem}, J.~{Bock}, M.~{Brodwin}, J.~E. {Carlstrom},
-  C.~L. {Chang}, H.-M. {Cho}, A.~{Conley}, T.~M. {Crawford}, A.~T. {Crites},
-  T.~{de Haan}, M.~A. {Dobbs}, J.~{Dudley}, E.~M. {George}, N.~W. {Halverson},
-  W.~L. {Holzapfel}, S.~{Hoover}, Z.~{Hou}, J.~D. {Hrubes}, R.~{Keisler},
-  L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch}, M.~{Lueker}, D.~{Luong-Van},
-  G.~{Marsden}, D.~P. {Marrone}, J.~J. {McMahon}, J.~{Mehl}, S.~S. {Meyer},
-  M.~{Millea}, J.~J. {Mohr}, T.~E. {Montroy}, S.~{Padin}, T.~{Plagge},
-  C.~{Pryke}, C.~L. {Reichardt}, J.~E. {Ruhl}, J.~T. {Sayre}, K.~K. {Schaffer},
-  B.~{Schulz}, L.~{Shaw}, E.~{Shirokoff}, H.~G. {Spieler}, Z.~{Staniszewski},
-  A.~A. {Stark}, K.~T. {Story}, A.~{van Engelen}, K.~{Vanderlinde}, and Vieira.
 
 \bibitem{wang2015}
 L.~{Wang}, M.~{Viero}, N.~P. {Ross}, V.~{Asboth}, M.~{B{\'e}thermin},
@@ -641,5 +545,13 @@ P.~{Larsen}, A.~{Challinor}, B.~D. {Sherwin}, and D.~{Mak}.
 \newblock {Demonstration of cosmic microwave background delensing using the
   cosmic infrared background}.
 \newblock {\em ArXiv e-prints}, July 2016.
+
+\bibitem{planck2016like}
+{Planck Collaboration}, N.~{Aghanim}, M.~{Arnaud}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G. {Bartlett},
+  N.~{Bartolo}, and et~al.
+\newblock {Planck 2015 results. XI. CMB power spectra, likelihoods, and
+  robustness of parameters}.
+\newblock {\em \aap}, 594:A11, September 2016.
 
 \end{thebibliography}
