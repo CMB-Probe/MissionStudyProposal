@@ -27,11 +27,17 @@ shapes.
 
 Relative calibration requirements are likely to exceed those of
 Planck, whose High Frequency Instrument achieved of order 0.01\% (cite
-https://arxiv.org/abs/1605.02985).  Bandpass mismatch between
-polarized detectors gives an error in relative calibration when the
-SED of the sky signal differs from that of the calibrator.  This gives
-a spatial dependence to the leakage, potentially complicating the
-component separation.
+https://arxiv.org/abs/1605.02985).
+%PeterM
+Bandpass mismatch is the imperfect matching of the frequency dependant gain of the two detectors or acquisition channels used to estimate the polarized signal.  Any asymmetry turns into a spurious polarization signal when viewing sources with SED different from the calibrator. For CMB-probe, this includes every foreground contaminant on the sky.  The effect can be minimized by matching the bandpasses, and residual mismatch can be estimated by measuring the bandpasses on the ground, however, for both instruments of Planck the ground based measurements of the bandpasses were found to be insufficient to determine the impact on the polarized maps. In both cases estimates of the bandpass mismatch needed to be determined as part of the mapmaking pipeline, and bandpass mismatch remains one of the most problematic systematics in the pipelines. CMB-probe will need a more robust program to mitigate this problem on ground, simulate the impact, and to deal with it in the flight data.
+
+A second order complication of unmatched bandpasses is unmatched far sidelobe contamination, leading to a spurious polarized component from bright unpolarized signals far from the main lobe.
+
+%Bandpass mismatch between
+%polarized detectors gives an error in relative calibration when the
+%SED of the sky signal differs from that of the calibrator.  This gives
+%a spatial dependence to the leakage, potentially complicating the
+%component separation.
 
 These systematics are likely to drive the instrumental
 requirements on the optical system as well as the uniformity of the
@@ -73,9 +79,12 @@ the sky (such as the Sun, Moon, planets, and Galactic center) passing
 into the far sidelobes of the telescope (defined as the response of a
 detector from a source more than a few degrees from the optical axis)
 in a sky-synchronous way can create a spurious polarization signal.
-The far sidelobes can be reduced by optical design and baffling, but diffraction ensures that this
-off-axis response will always be present at some level.  Measurement on
-the ground can allow for some correction, and design of the scan
-strategy can modulate the sidelobe pickup in a different way from the
-true on-axis polarization signal, allowing its removal.
+%PeterM
+he far sidelobe response can be reduced by the optical design and baffling, but will always be present at a non-trivial level.  The Planck experience is instructive here as well.  The detailed GRASP model of the telescope, convolved with the sky model, predicted sidelobe contamination at a visible (10's of microK) level in the 30 GHz maps, which was observed in difference maps.  As a result the LFI maps have had an estimate of the sidelobe contamination removed from the timelines as part of the mapmaking process. The more stringent requirements for CMB-probe will necessitate at least this level of mitigation.  A major limitation to the analysis of far sidelobe contamination in the Planck data has been the lack of bright enough on-orbit sources to validate the GRASP simlation as adjusted by optical and bandpass parameters estimated on-orbit. Finding a way to better validate the FSL model on-orbit for CMB-probe may be critical to successfully removing FSL contamination.
+
+%The far sidelobes can be reduced by optical design and baffling, but diffraction ensures that this
+%off-axis response will always be present at some level.  Measurement on
+%the ground can allow for some correction, and design of the scan
+%strategy can modulate the sidelobe pickup in a different way from the
+%true on-axis polarization signal, allowing its removal.
 
