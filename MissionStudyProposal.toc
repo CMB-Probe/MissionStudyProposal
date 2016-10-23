@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.3}Current and Forthcoming Efforts and the CMB Probe}{12}
 \contentsline {subsection}{\numberline {1.4}State of Technologies}{12}
 \contentsline {paragraph}{Telescopes:}{12}
-\contentsline {paragraph}{Optical Coupling:}{12}
+\contentsline {paragraph}{Optical Coupling:}{13}
 \contentsline {paragraph}{Detector Coupling:}{13}
 \contentsline {subsection}{\numberline {1.5}Mission Study, and Management Plan }{14}
 \contentsline {section}{\numberline {2}Curriculum Vitae}{22}
