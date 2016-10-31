@@ -1,10 +1,30 @@
 
-*.log
 *.gz
+
 *.xls
 *.xlsx
+
+*.log
 *.toc
 *.aux
 *.blg
+*.out
+*.toc
+
+## temp files
+*.sh~
+*.py~
+*.swp
+*.swo
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
 
 
