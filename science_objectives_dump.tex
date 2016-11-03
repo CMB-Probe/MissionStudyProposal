@@ -159,18 +159,70 @@ from other astrophysical probes and large regions of parameters space for lab-ba
 \comred{dan, let's clean up the English here}
 A newly designed mission is likely to reach $\sigma(\Neff) < 0.027$ with high signal-to-noise ratio. 
 
+%Much of the information about our thermal history and the particle content of the universe is encoded in the $T$ and $E$ power spectra.  
+%A high-precision measurement of these spectra over the full sky is expected to significantly improve our understanding of the post-inflationary 
+%universe.  This is particularly true in $E$-mode polarization where, to date, far fewer modes have be measured at the level of cosmic variance than in temperature.
+
+%The spectra at high-$\ell$ contain important information about the components of the thermal plasma and their interactions around the time of recombination.  
+%One particular compelling target is the effective number of neutrino species $\Neff$, which parameterizes the total amount of energy density in radiation 
+%at the time of recombination. Despite its common name, $\Neff$ encodes the total number of light relic particles.  The canonical value %with three species of 
+%neutrinos is $\Neff = 3.046$. 
+%It is defined such that in the Standard model of particle physics with normal thermal evolution, $\Neff = 3.046$ due to the energy density 
+%in the three species of neutrinos.  
+%$\Neff$ is also sensitive to any additional light relic particles as their gravitational influence is identical to the neutrinos.  
+%In fact, if there was an 
+
+
+%The presence of free-streaming radiation changes the detailed features of the $TT$, $TE$ and $EE$ spectra at all $\ell$.  
+%In particular, it changes the locations of the acoustic peaks and alters the damping tail at high-$\ell$~\cite{Bashinsky:2003tk,Hou:2011ec,Follin:2015hya,Baumann:2015rya}.  Similar changes to the spectra 
+%arise from many other compelling targets including the helium fraction $Y_p$ and more general dark sector physics.  For this reason, 
+%constraints on $\Neff$ a useful proxy for the information available in the high-$\ell$ power spectra.  
+
+%noise level of 0.9 $\mu$K-arcmin over the full sky gives competitive 
+%constraining power when compared other proposals.  
+%The full-sky nature of the proposed mission would allow for cosmic variance limited $E$-modes 
+%over most of the sky and a large range of $\ell$.
+
+%The main downside of a space-based mission is that we cannot reach the resolutions available from the ground.  
+%However, we see that at 5' resolution and 1 $\mu$K-arcminute noise the forecasts are less sensitive to 
+%the resolution then one might naively expected.  In particular we can reach $\sigma(\Neff) < 0.035$ for
+%temperature noise from 1-2 $\mu$K-arcmin and $f_{\rm sky} =0.6-0.8$.  These forecasts are competitive 
+%with CMB Stage IV.  Specifically, the larger sky fraction and sensitivity available from space appears 
+%to compensate for the reduced resolution.  In fact, the full sky measurement would provide complimentary information that could be 
+%combined with ground based surveys to further improve over the limits available from either experiment.  
+%This is particularly important for 
+%$\Neff$ which is tantalizingly close to the target of $\sigma(\Neff) =0.027$ and therefore even an apparently modest improvement 
+%could have a major scientific impact.  
+
+%Neutrino properties measurements in accelerator give a minimum value of $\sum m_\nu =58$.  
+%that is accessible from Cosmology.  
+%The most distinctive feature of $\sum m_\nu$ is that it suppresses the growth of structure on small scales.  This suppression
+%can be measure in the CMB through amplitude of the lensing power spectra compared to the primary CMB.  In principle, 
+%this relative difference can yield a measurement  of the minimum value of $\sum m_\nu =58$ meV at 4-5 $\sigma$ for a 
+%number of future cosmological surveys.  However, sensitivity to $\sum m_\nu$ is ultimately limited by our knowledge of 
+%the primordial amplitude of fluctuations $A_s$ which is strongly degenerate with the optical depth $\tau$. 
+
+%The current limit on $\tau$ from the Planck satellite of $\tau = 0.055 \pm 0.009$ ultimately limits 
+%$\sigma(\sum m_\nu) \gtrsim 25$ meV, as shown in the panel of Figure~\ref{fig:Neff_future}.  While the figure 
+%shows the sensitivity of a space-based CMB mission to $\sum m_\nu$, this lower limit is common to any 
+%measurement that depends on the relative suppression.  Therefore, a cosmological detection of 
+%$\sum m_\nu = 58$~meV at 3-5 $\sigma$ depends crucially on an improvement measurement of $\tau$.  
+%To date, the only proven method for such a measurement is from a space-based CMB observations.  The best 
+%constraints on $\tau$ come from $E$-modes with $\ell < 20$ which requires control over the largest angular scales.  
+
+
+
 \begin{figure}[t!]
 \begin{center}
 \includegraphics[width=0.45\textwidth]{figs/Neff.pdf}
 \includegraphics[width=0.45\textwidth]{figs/Mnu_tauprior.pdf}
 \caption{ \small \setlength{\baselineskip}{0.95\baselineskip}
-$\Neff$ as a function of noise and sky fraction (left) and
-Neutrino mass constraints as a function of uncertainties in measurement of $\tau$, noise, and 
-sky fraction of $f_{\rm sky} = 0.7$. The resolution assumed is 5'.  
+$\Neff$ as a function of noise and sky fraction assuming 5' resolution (left) and
+Neutrino mass constraints as a function of uncertainties in measurement of $\tau$ and noise for a 5' beam and 
+sky fraction of $f_{\rm sky} = 0.7$. 
 Vertical lines denote the expected performance of EPIC-IM. 
 The blue dashed line is the current \planck~limit; the grey dashed line is the limit from cosmic variance 
-measurement of $\tau$. All forecasts assume internal delensing of the $T$ and $E$-maps~\cite{Green:2016cjr}, 
-including residual non-Gaussian covariances.  The $\sum m_\nu$ forecasts includes DESI BAO.  
+measurement of $\tau$. All forecasts assume internal delensing of the $T$ and $E$-maps~\cite{Green:2016cjr}, including residual non-Gaussian covariances.  The $\sum m_\nu$ forecasts includes DESI BAO.  
 \label{fig:Neff_future} }
 \end{center}
 \vspace{-0.15in}
@@ -181,20 +233,46 @@ leaving faint evidence of their past existence on other tracers. The relics with
 past the epoch of light element synthesis, leave a signature on the helium fraction $Y_p$.  If they decay 
 by the time of recombination, their existence through this period is best measured through the ratio of $\Neff$ to $Y_p$. 
 The Probe's cosmic variance limited determination 
-of the $E$ power spectra will improve current limits for these quantities by roughly \comred{why roughly?} 
-a factor of five thus eliminating sub-MeV mass thermal relics.   
+of the $E$ power spectra will improve current limits for these quantities by roughly a factor of five thus eliminating sub-MeV mass thermal relics.   
 Spectrum distortion measurements give additional constraints on the lifetime and abundance 
 of such relics. Chluba et al. showed that a future Probe's $\mu$-distortion constraint gives a two orders of magnitude
 improvement on the abundance and life time of early Universe relics compared to current constraints derived 
 from measurements of light element abundances \comred{needs citation to the proper chluba et al, and to the constraint
 from light element abundance}
 
+%the constraints   
+%derived from light element abundance by more than two orders of magnitude 
+
+%But the existence of those with lifetime longer than few minutes 
+%but shorter than 400,000 years will be detected or constrained through the CMB Probe's precise measurements 
+%of the ratio of the helium fraction $Y_p$ and $\Neff$~\cite{Fischler:2010xz,Baumann:2015rya}. The values of $Y_p$
+%and $\Neff$ are each sensitive to the energy content of the universe during the formation 
+%of the light elements and at 400,000 years, respectively. The Probe cosmic variance limited determination 
+%of the $E$ power spectra will improve current limits for these quantities by a factor of ?? thus eliminating (\comred{what? classes 
+%of possible relics? what is the quantitative deliverable?} )
+%can survive beyond the time of BBN
+%The existence of some light relics of the early universe will be detected or ruled out by comparing the measured 
+%values of helium fraction  $Y_p$ and $\Neff$. Both will be measured to an accuracy of at least ??\% by 
+%Measurements of the primary CMB and CMB lensing are very sensitive to particles with long-lifetimes that survive 
+%until the era of recombination.  Furthermore, the primary CMB is indirectly sensitive to BBN through the helium fraction, $Y_p$, 
+%that can be detect energy injections at those times.  However, many relics of the early universe are not cosmologically stable but 
+%can survive beyond the time of BBN.  Energy injection between the two eras is not directly captured by the CMB anisotropies 
+%but can be tested by BBN consistency of $Y_p$ with the measured value of $\Neff$~\cite{Fischler:2010xz,Baumann:2015rya}.  
+
+%Additional, far more sensitive measurements of this intermediate era are possible through the {\it distortions} of the 
+%CMB blackbody spectrum. This will allow us to place stringent bounds on the presence of long-lived decaying 
+%particles, with lifetimes $t_{\rm X}\simeq 10^6-10^{11}\,{\rm s}$ \citep{Sarkar1984, Kawasaki1986, Hu1993b, Chluba2013fore, Chluba2013PCA, Dimastrogiovanni2015}. CMB distortion measurements could thus complement existing bounds from CMB anisotropy measurements on particles with even longer lifetimes \cite{Chen2004, Zhang2007, Diamanti2014} and improving constraints derived from light-element abundances \citep{Kawasaki2005, Kawasaki2005b, Jedamzik2006} by more than two orders of magnitude, potentially breaking the degeneracy between lifetime and abundance of the particle \citep{Chluba2011therm, Chluba2013fore, Chluba2013PCA}.
+%
+
 Cosmological measurements have already confirmed the existence of one relic that lies beyond the 
 Standard Model: dark matter. For a conventional WIMP candidate, the CMB places very stringent 
 constraints on its properties through the signature of its annihilation on the $T$ and $E$ 
-spectra\citep{Peebles2000, Chen2004, Padmanabhan2005}.  Planck currently excludes WIMPs with mass $m_{\rm dm}< 16$ GeV and a future CMB mission could reach $m_{\rm dm} < 45$ GeV for $f_{\rm sky} =0.8$.  \comred{can we put this in context of other measurements? deleted the next two sentences}
-%A dark matter candidate can also have a slow decay to Standard models particles which is 
-%similarly constrained by the CMB~\cite{Chen2004, Zhang2007, Diamanti2014, Slatyer:2016qyl}.  Current and future CMB limits on the lifetime of $\tau \gtrsim 10^{25}$ s are somewhat weaker than indirect detection limits of $\tau > 10^{24-28}$~s~\cite{Essig:2013goa}.  
+spectra\citep{Peebles2000, Chen2004, Padmanabhan2005}.  Planck currently excludes WIMPs with mass $m_{\rm dm}< 16$ GeV and a future CMB mission could reach $m_{\rm dm} < 45$ GeV for $f_{\rm sky} =0.8$.  
+A dark matter candidate can also have a slow decay to Standard models particles which is 
+similarly constrained by the CMB~\cite{Chen2004, Zhang2007, Diamanti2014, Slatyer:2016qyl}.  Current and future CMB limits on the lifetime of $\tau \gtrsim 10^{25}$ s are somewhat weaker than indirect detection limits of $\tau > 10^{24-28}$~s~\cite{Essig:2013goa}.  
+%Through cosmological measurements, we have already confirmed the existence of one relic that lies beyond the 
+%Standard Model: dark matter. Characterizing the nature of dark matter is one of the most basic problems in 
+%cosmology and astro-particle physics.  For a conventional WIMP candidate, the CMB places very stringent constraints on dark matter through possible energy injection at the time of recombination.  A thermal relic will necessarily annihilate into Standard model particles which distorts the Thomson visibility function and ultimately the shape of the primary $T$ and $E$ spectra \citep{Peebles2000, Chen2004, Padmanabhan2005}.  A dark matter candidate can also have a slow decay to Standard models particles which is similarly constrained by the CMB~\cite{Chen2004, Zhang2007, Diamanti2014, Slatyer:2016qyl}.
 
 A particle-independent approach is to constrain dark matter interactions that would 
 affect the evolution of the effective dark matter fluid and its interactions with baryons or photons.  The simplest example is 
@@ -205,7 +283,7 @@ without necessarily producing an associated signature in direct detection experi
 indirect searches (e.g.~\cite{Cyr-Racine:2013fsa,Buen-Abad:2015ova,Lesgourgues:2015wza}). 
 
 Interactions of dark matter with standard model particles can also be constrained through 
-measurements of spectral distortions~\cite{Yacine2015DM}. 
+measurements of spectral distortions\cite{Yacine2015DM}. 
 %Chluba et al. showed 
 %As the Universe expands, the matter cools. Compton interactions with electrons keep the normal matter at the CMB 
 %temperature until well after recombination. This leads to a small distortion of the CMB with a negative chemical 
@@ -240,16 +318,16 @@ The sensitivity to $\sum m_\nu$ from suppression of power is limited by our know
 the primordial amplitude of fluctuations $A_s$, which is strongly degenerate with the optical depth $\tau$.  
 The current limit on $\tau$ from \planck\ of $\sigma({\tau}) = 0.009$~\cite{} limits 
 $\sigma(\sum m_\nu) \gtrsim 25$ meV. Forcasts for an internal 
-CMB measurement of $\sum m_\nu$ via CMB lensing~\cite{Kaplinghat:2003bh} are shown Figure~\ref{fig:Neff_future} but the conclusion is the same for any proposed cosmological probe \comred{why is this important?}.  
+CMB measurement of $\sum m_\nu$ via CMB lensing~\cite{Kaplinghat:2003bh} are shown Figure~\ref{fig:Neff_future} but the conclusion is the same for any proposed cosmological probe.  
 %This lower limit is common to any measurement that depends on the relative suppression.  
 Therefore, a detection of the minimum value expected from particle physics  
 $\sum m_\nu = 58$~meV at more than $2 \sigma$ depends crucially on a better measurement of $\tau$.  
 The best constraints on $\tau$ come from $E$-modes with $\ell < 20$ which require 
 measurements over the largest angular scales.
 To date, the only proven method for such a measurement is from space.  
-The \ac{CMB} Probe will reach the cosmic variance limit of $\tau \sim 0.002$ and will therefore 
+The \ac{CMB} Probe could reach the cosmic variance limit of $\tau \sim 0.002$ and could therefore 
 reach $\sigma(\sum m_\nu) < 15$ meV when combined with DESI's measurements of 
-baryon acoustic oscillations \comred{need reference}.  
+baryon acoustic oscillations.  
 A detection of $\sum m_\nu$ at this level is not possible with any other existing survey.
 %if not accompanied by an improvement to the measurement of $\tau$.
 
@@ -354,3 +432,231 @@ Resonant scattering of the CMB photons during and post last scattering lead to s
 that can be used to constrain the presence of metals in the dark ages and the physics of 
 recombination~\cite{Jose2005, Carlos2007Pol, Lewis2013,Kaustuv2004, Schleicher2008}. \comred{what is the quantitative deliverable? } 
 
+%and post-recombination 
+%eras \cite{Kaustuv2004, Schleicher2008} can lead to spectral-spatial CMB signals that can be used to constrain 
+%the presence of metals in the dark ages and the physics of recombination. For all these applications, instrumental 
+%synergies between CMB imaging and spectroscopy need to be studied in detail. 
+
+
+
+%The CMB spectrum varies spatially across the sky. One source of such anisotropic distortion is related to clusters of 
+%galaxies and has already been measured by Planck~\citep{Planck2013SZ}. A combination of precise CMB imaging 
+%and spectroscopic measurements will allow observing the relativistic temperature correction of individual SZ 
+%clusters~\citep{Sazonov1998, Itoh98, Challinor98}, which will calibrate cluster scaling relations and inform our 
+%knowledge of the dynamical state of the cluster atmosphere. Finally, resonant scattering signals in the 
+%recombination \citep{Jose2005, Carlos2007Pol, Lewis2013} and post-recombination 
+%eras \citep{Kaustuv2004, Schleicher2008} can lead to spectral-spatial CMB signals that can be used to constrain 
+%the presence of metals in the dark ages and the physics of recombination. For all these applications, instrumental 
+%synergies between CMB imaging and spectroscopy need to be studied in detail. 
+
+
+
+
+%\begin{figure}[htbp!]
+%\hspace{0.in}
+%\parbox{4.2in}{ \centerline {
+%\includegraphics[width=2.0in] {figs/cmb_powspec_v1.pdf}  
+%\hspace{0.1in}
+%\includegraphics[width=2.0in] {Figures/nsrlabeledrp01v10s}  }  }
+%\hspace{0.1in}
+%\parbox{2.in}{
+%\caption{ \small \setlength{\baselineskip}{0.90\baselineskip}
+%    Theory and observations for the spectrum; Space of predictions from important classes of inflation models.
+%\label{fig:inflation} } }   
+%\vspace{-0.05in}
+%\end{figure}
+
+
+%A significant contamination of CMB anisotropy maps is due to
+%the foreground emission from infrared (IR)
+%galaxies, responsible for the cosmic infrared background (CIB).
+%The CIB is the second largest
+%extragalactic background after the CMB, with an approximate
+%brightness of 24 nW m$\mathrm{^{-2} sr^{-1}}$ \citep{dole2006}.
+
+%Dust enshrouded star-forming galaxies at redshift $\mathrm{z\sim 1-3}$ is heated by starlight at ultraviolet (UV) and optical wavelengths,
+%and re-radiates at mid-IR to sub-millimetre wavelengths. This emission, from galaxies actively
+%producing stars at their peak of star formation, reaches us in the far-infrared (FIR) regime as the cosmic infrared
+%background (CIB). The CIB carries a wealth of information about the history of star formation and dark matter 
+%in the Universe, and will be used to constrain foreground levels and to remove the effects of lensing 
+%from the CMB polarization signals. 
+
+%With a brightness of 24 nW m$\mathrm{^{-2} sr^{-1}}$ \citep{dole2006}, it is 
+%the second most intense extragalactic background after the CMB. 
+%While the CIB is not our only handle on the evolution of the
+%cosmic star formation rate (SFR), it is particularly important
+%because FIR/sub-millimetre surveys are not subjected to some
+%uncertain steps in the conversion from galaxy counts and luminosities to SFRs,
+%affecting, e.g., optical surveys.
+
+%The drawback of working with a
+%high density of faint, distant sources in the FIR regime is that
+%individual objects are blended. While both the {\it Herschel} and {\it Planck} satellites
+%recently performed ground-breaking measurements of the CIB
+%\citep{amblard2011,viero2013a,planck2014-XXX,mak2016}, only a
+%negligible fraction of {\it Planck} sources have been individually
+%identified, due to its poor angular resolution, while for
+%{\it Herschel} maps, only 10$\%$ of the objects
+%has been resolved into individual galaxies at 857 GHz \cite{bethermin2010}.
+%However, the anisotropies detected in the
+%unresolved background can be analyzed through statistical tools
+%such as the angular power spectrum \citep{knox2001} and, since they trace the
+%underlying dark matter field, they can be interpreted with
+%phenomenological models linking dark matter halos to IR galaxies,
+%such as the Halo Model \cite{cooray2002,shang2012}.
+
+%{\bf Star Formation History:}
+%The Planck Collaboration, analyzing CIB anisotropy and its correlation with CMB lensing \citep{planck2014-XXX,planckXVIII},
+%derived limits on the star formation rate that
+%at redshift $\mathrm{z>2}$ are higher than with other datasets (see for example \cite{madau2014}) 
+%\comred{by how much higher?}. With \comred{100?} times  the Planck sensitivity at \comred{??} GHz, 
+%\comred{the constraints on the star formation rate will improve by ??}
+% Clearly, more accurate measurements of the CIB clustering at the
+% angular scales probed by {\it Planck} will be extremely useful to
+%gain more insight on the evolution of the star formation rate at
+% high redshift. 
+%The new mission probe will measure CIB anisotropies
+%with only one tenth of {\it Planck}'s instrumental noise at the critical
+%scales where the clustering of galaxies in the same dark matter
+%halo (the 1-halo term) has the same amplitude as the
+%clustering due to galaxies in separated halos
+%(the 2-halo term). Assuming a precise knowledge of the Poisson level of CIB
+%galaxies, we will be able to firmly constrain our models of CIB clustering,
+%and thus address three of the seven key questions
+%identified in the Astro2010 report ``New Worlds, New Horizons in Astronomy and Astrophysics''
+%(NAS Decadal Survey, p. 47): {\it What is the fossil record of galaxy assembly                                                   
+%from the first stars to present? What are the connections                                           
+%between dark and luminous matter? How do cosmic structures form and evolve?}
+%\comred{deliverables from previous paragraph not clear} 
+
+%{\bf Dark Matter:}
+%The CIB, being a tracer of the dark matter field over a broad redshift range,
+%can be cross-correlatated with many other datasets to explore
+%the interplay between CIB galaxies and dark matter. examples include the cross-correlations
+%with catalogs of quasars \citep{wang2015} and
+%galaxies \citep{serra2014} to constrain the interplay between
+%SFR and halo mass, and the cross-correlation with the Cosmic
+%$\mathrm{\gamma}$-ray background from {\it Fermi}-LAT
+%\citep{fermi2016} to constrain the dark matter annihilation
+%cross-section \citep{cooray2016}.
+%\comred{what are the quantitative outcomes of these cross-correlations}
+%Beyond the
+%cross-correlation with the lensing of the CMB
+%\citep{planckXVIII,holder2013}, some other 
+
+%{\bf CMB Delensing:} Since they are both tracers of the underlying mass distribution over
+%a broad range of redshifts, the CIB and CMB lensing are highly correlated
+%\citep{planckXVIII}. In particular, the CIB can be used as
+%an ideal proxy for the CMB lensing field in delensing studies, aiming at
+%reducing the confusion due to B-modes from lensing in the search of the
+%signal from primordial gravitational waves.
+%Recently \cite{sherwin2015,larsen2016} showed that co-adding {\it Planck} CIB maps
+%greatly improves the delensing performance. Upcoming CMB surveys
+%will heavily rely on delensing methods for constraining the
+%inflationary B-mode polarization signal, and CIB delensing of temperature and E-mode
+%polarization might also help improving constraints on other parameters such as the effective
+%number of neutrino species $\mathrm{N_{eff}}$ \citep{larsen2016}.
+%\comred{can we be quantitative}
+
+%{\bf CMB Foregrounds:} The Planck collaboration found that the CIB is 
+%a significant contributor to foregrounds in the 143x217 and 217x217 GHz 
+%band correlations~\citep{planck2016like}. Both the clustering and Poisson components of the 
+%CIB were found to be important. The cross-correlation between IR galaxies and the thermal
+%Sunyaev-Zeldovich (tSZ) effect provides an additional contamination. 
+%Thus, an accurate determination of both CIB and CIB-tSZ power
+%spectra will be extremely useful when accounting for these foregrounds
+%in the CMB parameter estimation.
+%\comred{make quantitative?} 
+
+%However, constraining the history of star formation is not the only reason for measuring CIB anisotropies with increased sensitivity from very large to very small scales. Below, we briefly discuss some others. 
+%\begin{itemize}
+%\item The CIB is an important foreground for CMB studies. As shown in \cite{planck2016like}, a significant contribution to the astrophysical foreground in the 143x217 and 217x217 GHz channels is due to both the clustering and Poisson components of the CIB. The cross-correlation between IR galaxies and the thermal Sunyaev-Zeldovich (tSZ) effect provides an additional contamination. Thus, an accurate determination of both CIB and CIB-tSZ power spectra will be extremely useful when accounting for these foregrounds in the CMB parameter estimation.
+%\item The CIB, being a tracer of the dark matter field over a broad redshift range, can be cross-correlatated with many other datasets to explore the interplay between CIB galaxies and dark matter. Beyond the cross-correlation with the lensing of the CMB \citep{planckXVIII,holder2013}, some other examples include the cross-correlations with catalogs of quasars \citep{wang2015} and galaxies \citep{serra2014} to constrain the interplay between SFR and halo mass, and the cross-correlation with the Cosmic $\mathrm{\gamma}$-ray background from {\it Fermi}-LAT \citep{fermi2016} to constrain the dark matter annihilation cross-section \citep{cooray2016}.
+%\item Since they are both tracers of the underlying mass distribution over
+%a broad range of redshifts, the CIB and CMB lensing are highly correlated
+%\citep{planckXVIII}. In particular, the CIB can be used as
+%an ideal proxy for the CMB lensing field in delensing studies, aiming at
+%reducing the confusion due to B-modes from lensing in the search of the
+%signal from primordial gravitational waves.
+%Recently \cite{sherwin2015,larsen2016} showed that co-adding {\it Planck} CIB maps
+%greatly improves the delensing performance. Upcoming CMB surveys
+%will heavily rely on delensing methods for constraining the
+%inflationary B-mode polarization signal, and CIB delensing of temperature and E-mode
+%polarization might also help improving constraints on other parameters such as the effective
+%number of neutrino species $\mathrm{N_{eff}}$ \citep{larsen2016}.
+%\end{itemize}
+%To summarize, the CIB is a full sky, bright, high redshift extragalactic
+%background that maps star formation at its peak, and carries
+%a tremendous amount of information about the birth and
+%evolution large scale structures in the Universe, and the interplay
+%between light and matter.
+
+
+% 
+%
+% Some of the most important information is on the largest scales: super-horizon correlations
+% What do we learn: new energy scale for fundamental phenomena in particle physics; energy scale of inflation/Hubble parameter during inflation; field range and q. grav; classes of inflationary potentials; with a detection, can go after shape of the spectrum, NG. These constrain non-minimal inflation models (secondary sources), spectrum of physics BSM through cosmic strings; Any alternatives to inflation or to Einstein gravity (massive gravity, etc) must be consistent with the measured spectrum.  
+% any additional power for scalar sector?
+ 
+ %***********************  The placeholder text is below ***************************%
+%\comred{The verbiage below is taken from another proposal. Here we need to explain what are the science objectives 
+%of the CMBProbe, how the science objectives relate to the current state of knowledge, and to NASA's goals}
+%
+%
+%The paradigm of inflation~\cite{guth81,linde82,albrecht82,sato81,kolb94}
+%%, in which the Universe underwent exponential expansion within the first $\sim$$10^{-35}$~sec, 
+%makes several predictions that are consistent with all current astrophysical 
+%measurements~\cite{spergel06,Tegmark:2006az,planck2015parameters,planck2015inflation}. 
+%A robust prediction of inflation is the existence of a stochastic background of gravitational radiation 
+%with an amplitude depending on the mechanism driving the accelerated 
+%expansion~\cite{starobinsky82,starobinsky83a,rubakov82,grishchuk75,abbott84a}.
+%In most scenarios, this `inflationary gravitional wave background' (\igb) is predicted
+%to have a spatial power spectrum whose amplitude is proportional to the energy
+%scale of inflation $V^{1/4}$ via
+%$V^{1/4} = 3.7 \times 10^{16} \ r^{1/4}\,\, {\rm GeV},$
+%where $V$ is the inflaton potential and $r$ is the ratio of the temperature
+%quadrupoles produced by gravitional waves and by density perturbations.  
+%There are theoretical reasons $V^{1/4}$ may be close to the Grand
+%Unification scale of $10^{16}$~GeV, suggesting detectable $r$ values between 
+%$\sim$0.001 and $\sim$0.1. In addition to determining the energy scale of inflation, measurements 
+%of the \igb\ probe the scalar field potential at or above the Planck scale, which is particularly relevant for inflation models motivated 
+%by string theory~\cite{SnowmassInflationTheory}. Measurements of the \igb\ thus probe fundamental physics at the 
+%highest possible energy scales. 
+%\begin{figure}[htbp!]
+%\hspace{0.in}
+%\parbox{4.2in}{ \centerline {
+%\includegraphics[width=2.0in] {Figures/sunny_skies.jpg}  
+%\hspace{0.1in}
+%\includegraphics[width=2.0in] {Figures/sunny_skies2.jpg}  }  }
+%\hspace{0.1in}
+%\parbox{2.in}{
+%\caption{ \small \setlength{\baselineskip}{0.90\baselineskip}
+%       Sample Figure of Sunny Skies
+%\label{fig:sunny_skies} } }   
+%\vspace{-0.05in}
+%\end{figure}
+%
+%The most promising way to search for the \igb\ is through its signature on the CMB polarization~\cite{kamionkowski97b,seljak97}.  
+%Primordial energy density perturbations produce only a curl-free, or `E-mode', pattern of polarization.
+%Gravitional waves also produce a curl, or `B-mode', pattern of polarization that density perturbations cannot
+%produce~\cite{kamionkowski97a,zaldarriaga97}.  The amplitude of the B mode is related to the energy scale
+%of inflation by $V^{1/4}=2\times10^{16} \ ( B_{peak} / 0.1\,\mu{\rm
+%K})^{1/2} \,{\rm GeV},$ where $B_{peak}$ is the amplitude of the power spectrum of the B mode in \microk\ at $\ell=80$;
+%see Fig.~\ref{fig:sunny_skies}. In its recent report New Worlds New Horizons (NWNH), the decadal survey 
+%committee strongly endorsed sub-orbital searches for the B-mode signal from 
+%inflation saying that ``The convincing detection of B-mode polarization in the CMB produced in the 
+%epoch of reionization would represent a watershed discovery.''~\cite{blandford2010}
+%
+%B-mode signatures near the expected \igb\ peak at $\ell=80$ have recently been detected by BICEP2~\cite{bicep2Bmode}. 
+%However, the combination of Planck data with those from the BICEP2 and Keck Array collaborations have demonstrated 
+%that the B-mode signal measured is entirely consistent with contributions from polarized emission of Galactic dust and the 
+%signal from the gravitational lensing of CMB photons by the large scale structure of the Universe (see 
+%Section~\ref{sec:lensing})~\cite{bkp2015,planck2014-XXX,2016PhRvL.116c1302B}. 
+%These data give an upper limit of $r<0.09$ at 95\% confidence level.
+%Most importantly, the constraint is largely limited by Planck's noisy measurement of the dust properties in the 353~GHz band; 
+%a noiseless dust map could shrink the constraint by a factor of two~\cite{bkp2015}. 
+%Further progress --- detections or improved limits --- requires instruments 
+%with higher sensitivity at {\it both} the dust and CMB frequency bands so that this Galactic foreground can be properly identified 
+%and removed. 
+%
+%
