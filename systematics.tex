@@ -3,80 +3,67 @@
 % Brendan
 \vspace{-0.05in}
 
-Advances in detector technology since the formulation of Planck and WMAP will enable huge gains in raw 
-sensitivity for a CMB probe.  To fully take advantage of this sensitivity, systematic errors must be
-controlled to detect polarization signals at nano-Kelvin levels.  The proposed study will invest heavily in 
-designing an instrument,  test plan, and observation strategy to address systematic errors,
-gathering decades of experience of ground-, balloon-, and space-based CMB polarimetry.  The latest 
-experience with \planck\ points to the following systematic error categories likely to be important for a
-future space mission~\cite{PlanckintermediateXLVI}:
+The latest experience with \planck\ points to the following systematic error categories likely to be important for 
+the CMB Probe, or for that matter, for any instrument striving to map the polarization 
+over large portions of the sky to the levels targeted by the CMB Probe~\cite{PlanckintermediateXLVI}:
+% only future space mission or anything targeting this $\sigma (r)$? 
 1. Intensity-to-polarization leakage, 2. stability, and 3. straylight. 
-
-%Each of these is considered in light of the instantaneous signals measured by
-%polarization-sensitive detectors at different times and orientations are combined to recover
-%the maximum likelihood polarization signal from each point on the sky.
+Each of these is considered in light of polarimetry measurements through
+differencing the signals of two detectors that are sensitive to orthogonal polarization states. 
+% at different times and orientations are combined to recover
+% the maximum likelihood polarization signal from each point on the sky.
 
 \textbf{Leakage} \hspace{0.1in} The CMB anisotropy signal is a factor of 1000 larger 
 than the strongest possible inflationary B-mode signal (see for example Fig.~\ref{fig:clall}). 
 Therefore instrumental effects that can leak
 even a small fraction of an intensity fluctuation into spurious  polarization
-must understood and controlled. The main effects are differences between gains of detectors
-sensitive to two orthogonal polarization states, their frequency bandpass mismatch, their differential pointing
-on the sky, 
+must be understood and controlled. The main effects are differences between gains of detectors, 
+their frequency bandpass mismatch, their differential pointing on the sky, 
 and their differential antenna patterns. These differential effects need to be controlled, through 
-instrument design, characterization, or data analysis to 1 part in $10^{4}$ to give a negligible contribution for 
-$\sigma(r) <0.001$.  This level of control represents a factor of 100 improvement on \planck 's performance~\cite{PlanckintermediateXLVI}.
+instrument design, characterization, and data analysis to 1 part in $10^{4}$ to give a negligible contribution for 
+$\sigma(r) <0.001$.  This level of control represents a factor of 100 improvement on \planck 's performance~\cite{PlanckintermediateXLVI}. \comred{what about Bicep/Keck?}
 
-
-%Relative calibration requirements are likely to exceed those of
-%Planck, whose High Frequency Instrument achieved of order 0.01\% (cite
-%https://arxiv.org/abs/1605.02985).
-%PeterM
-%Bandpass mismatch is the imperfect matching of the frequency dependant gain of the two detectors or acquisition channels used to estimate the polarized signal.  Any asymmetry turns into a spurious polarization signal when viewing sources with SED different from the calibrator. For CMB-probe, this includes every foreground contaminant on the sky.  The effect can be minimized by matching the bandpasses, and residual mismatch can be estimated by measuring the bandpasses on the ground, however, for both instruments of Planck the ground based measurements of the bandpasses were found to be insufficient to determine the impact on the polarized maps. In both cases estimates of the bandpass mismatch needed to be determined as part of the mapmaking pipeline, and bandpass mismatch remains one of the most problematic systematics in the pipelines. CMB-probe will need a more robust program to mitigate this problem on ground, simulate the impact, and to deal with it in the flight data.
-
-A second order complication of unmatched bandpasses is unmatched far sidelobe contamination, leading to a spurious polarized component from bright unpolarized signals far from the main lobe.
-
-%Bandpass mismatch between
-%polarized detectors gives an error in relative calibration when the
-%SED of the sky signal differs from that of the calibrator.  This gives
-%a spatial dependence to the leakage, potentially complicating the
-%component separation.
-
-These systematics are likely to drive the instrumental
-requirements on the optical system as well as the uniformity of the
-bandpass of each polarimeter.  Calibration requirements will also be
-set by limiting these systematics: particularly on the
-knowledge of the polarization parameters (such as cross-polar leakage
-and the angle of polarization sensitivity), as well as measurement of
-the beam shape (in general a function of the SED of the observed source).
+Leakage-related effects will drive: requirements on the optical system, and the uniformity of the
+bandpass of each polarimeter;  calibration requirements on the level of cross-polar leakage and its angle; 
+% why are we saying 'cross-polar' leakage?
+and measurements of the the beam shape as a function of source spectrum. 
 These systematic effects can potentially be mitigated by modulation of the sky signal in
 such a way that allows complete reconstruction of the 
 polarized sky signal using each photometer, for example, using a
 half-wave plate.  
+% does all of this belong here or in 'to do'.
 
-\textbf{Stability.}  Given the need to avoid light from the Sun, Earth, and Moon, the full reconstruction 
-of the polarized sky will necessarily involve combination of measurements made at times
-separated by months, requiring stability of the response of the instrument on corresponding time scales.  
-This systematic error puts requirements on control of thermal drifts of spacecraft temperatures, to
+\textbf{Stability.}  %Given the need to avoid light from the Sun, Earth, and Moon, 
+\comred{need more number(s) in this paragraph}
+The reconstruction of deep, full sky polarization maps involves a combination of measurements made at times
+separated by months, requiring stability of the response of the instrument on corresponding time scales.  Random deviations
+from stability are a source of noise; systematic deviations are a source of systematic error. 
+This type of systematic error puts requirements on control of thermal drifts of spacecraft temperatures, to
 mitigate thermal emissivity changes and thermoelastic deformation of telescope structures.  
 The cryogenic operating temperatures of detectors or reference calibration loads must be controlled
 adequately as well. Careful design of the scan strategy can shorten the time
 scales needed for stringent stability, for example Planck's scan strategy traced out great circles which overlapped on
 1~minute timescales, giving a shorter effective time scale for stability requirements. 
 
-Additionally, the space radiation environment is modulated by the solar activity and
-can introduce drifts in the cryogenic thermal environment as well as
-introducing correlated transients in detectors and readout
-electronics.  The design of the instrument must account this
-environment, which following Planck is much better understood.
+The spacecraft's ambient radiation environment is modulated by the solar activity and
+can introduce temperature drifts in the cryogenic stages as well as
+introducing correlated transients in detectors and readout electronics.  The design of the instrument must 
+account for these effects.
+% environment, which following Planck is much better understood.
 
-\textbf{Straylight.}   The brightest cm-wave and mm-wave sources in
-the sky (such as the Sun, Moon, planets, and Galactic center) passing
-into the far sidelobes of the telescope (defined as the response of a
-detector from a source more than a few degrees from the optical axis)
-in a sky-synchronous way can create a spurious polarization signal.
-%PeterM
-The far sidelobe response can be reduced by the optical design and baffling, but will always be present at a non-trivial level.  The Planck experience is instructive here as well.  The detailed GRASP model of the telescope, convolved with the sky model, predicted sidelobe contamination at a visible (10's of microK) level in the 30 GHz maps, which was observed in difference maps.  As a result the LFI maps have had an estimate of the sidelobe contamination removed from the timelines as part of the mapmaking process. The more stringent requirements for CMB-probe will necessitate at least this level of mitigation.  A major limitation to the analysis of far sidelobe contamination in the Planck data has been the lack of bright enough on-orbit sources to validate the GRASP simlation as adjusted by optical and bandpass parameters estimated on-orbit. Finding a way to better validate the FSL model on-orbit for CMB-probe may be critical to successfully removing FSL contamination.
+\textbf{Straylight.}   When the brightest sources in the sky -- the Sun, Moon, planets, and Galaxy --
+are passing through the far sidelobes of the telescope they create a spurious polarization signal. If they are 
+passing in repeated, scan synchronous pattern, the spurious signal becomes a source of systematic error. 
+This far sidelobe response can be reduced through careful optical design and baffling, but will always be present 
+at a non-trivial level.  Detailed modeling of the \planck\ telescope, convolved with sky sources, gave 
+a predicted sidelobe contamination at a detectable level of tens of micro-Kelvin in the 30 GHz maps.  This
+contamination has been observed in \planck\ difference maps.  
+% which difference? 
+As a result an estimate of the sidelobe contamination was removed from some of the \planck\ time ordered data 
+as part of the mapmaking process. The more stringent requirements for CMB-probe will necessitate at least 
+this level of mitigation.  
+
+%A major limitation to the analysis of far sidelobe contamination in the Planck data has been the lack of bright enough on-orbit sources to validate the GRASP simlation as adjusted by optical and bandpass parameters estimated on-orbit. Finding a way to better validate the FSL model on-orbit for CMB-probe may be critical to successfully removing FSL contamination.
 
 \textbf{Study Plan.}  Understanding and controlling the effects of systematic errors in a next-generation CMB probe is critical.  During the study period we plan to build an end-to-end simulation pipeline that will generate simulated measurements at an instrumental level, and feed them into the notional analysis pipeline, including foreground/CMB component separation and power spectral analysis.  This simulation pipeline will allow us to explore 1. mitigation of systematic errors by design, for example exploring modulation schemes and modulator technologies, and 2. mitigation of systematic errors by analysis techniques.  This pipeline will be used eventually to define requirements for a notional mission, and could be helpful to prioritize the technology development needs of a future mission.
 
