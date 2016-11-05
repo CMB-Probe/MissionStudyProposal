@@ -101,10 +101,46 @@ Similarly, a clear objective of the spectral science is to have a robust, foregr
 \end{figure}
 
 
-One of the key ingredients in the design of a CMB experiment is the frequency coverage required to achieve the science goals. Consequently, optimizing frequency coverage in light of the new information from $Planck$ and its limitations will be one of key task of the study proposed here. To achieve these goals we plan a careful investigation of the effect on the measurements of r and $\tau$ of the presence of foreground residuals in the CMB maps (after foreground separation and/or cleaning) including, for example, the properties of the polarized thermal dust emission, specifically the spatial variation of its spectral index hinted at by the observed decorrelation of the dust between 217 GHz and 353GHz Planck channels (\ref{Planck2015-X;Planck2015-L;Planck2015-XXIX;Boulanger2016}), the breakdown of the modified black body spectrum model, and decorrelation between frequencies. 
-These aspects will be explored with the help of physically motivated models of the foregrounds (\ref{Bruce+Fraisse2009,Hensley et al in preparation}) informed by existing data and simulations based on these, using either existing simulation tools and/or implementing new simulators when required. 
+One of the key ingredients in the design of a CMB experiment is the frequency coverage required to achieve the science goals. Consequently, optimizing frequency coverage in light of the new information from $Planck$ and its limitations will be one of key task of the study proposed here. 
 
-The optimization of frequency channels will be conducted using both traditional (Fisher codes both spectra and map based) and novel techniques currently in development (such as direct Bayesian MCMC inference of cosmological parameters in the presence of foregrounds, (extension of the method presented in  \ref{Jewell2016}). Realistic simulations (including time domain based) are essential to fully assess the performance of a given instrument design/concept in view of both foreground residuals and the presence of systematics. We plan to generate these simulations, process them as we would do the real data, specifically applying some of the current component separation methods to clean the frequency maps from foreground emission (akin to {\it Planck} collaboration procedures \ref{Planck2015-IX}) and propagate to parameter estimation, assessing the impact of all contaminating effects on the accuracy and potential biases of the parameters estimated with particular emphasis on r and $\tau$.
+%OVERVIEW of PLAN
+To achieve these goals we plan a careful investigation of the effect on the measurements of r and $\tau$ of the presence of foreground residuals in the CMB maps (after foreground separation and/or cleaning) including, for example, the properties of the polarized thermal dust emission, specifically the spatial variation of its spectral index (hinted at by the observed decorrelation of the dust between 217 GHz and 353GHz Planck channels \ref{Planck2015-X;Planck2015-L;Planck2015-XXIX;Boulanger2016}), the breakdown of the modified black body spectrum model, and decorrelation between frequencies. 
+
+These aspects will be explored with the help of physically motivated models of the foregrounds (\ref{Bruce+Fraisse2009,Hensley et al in preparation}) informed by existing data along with simulations based on these models. To incorporate instrument systematics due to beams, bandpass mismatches, correlated noise, etc., time domain based simulations will be required.
+
+%INSTRUMENTAL PARAMETERS:
+To devise the optimal instrumental/observational concept/design we will probe several configurations by varying critical instrumental parameters such as: the frequency coverage, the number of frequency channels, inter-band separation (limited by the typical instrumental bandwidths), the noise or sensitivity of each frequency channel, and angular resolution. 
+
+%FG MODELLING:
+Given that the B-mode signal is very weak, and much fainter than galactic foreground emission, even slight inacuracies in the characterization of the foregrounds will potentially impact the detectability of the B-mode signal. Therefore it is crucial to consider a large frequency coverage to properly gather the nature of the foregrounds as well as 'realistic' models that capture intrinsic complexities of these diffuse polarized foregrounds.
+Therefore we will consider physically motivated dust models (beyond the modified blackbody spectrum approximation) currently in development. 
+For these models the absorption cross-section in Intensity and Polarization are estimated self-consistently for grains of different sizes, shapes, and compositions as a function of frequency. These physical dust models will be used along with models implemented in the Planck Sky Model, PSM \ref{}, and/or  Python Sky model, PySm \ref{}, 
+
+
+%TECHNIQUES:
+To forecast the performance of a given instrumental design we will resort, for a quick diagnosis, to traditional techniques such as Fisher codes, both spectra and map based, that account for the presence of foregrounds assuming some best fit model of both the CMB and Foregrounds (akin to those used for the CMB-S4 science book \ref{}, eg CMB4cast (http://portal.nersc.gov/project/mp107/index.html)). 
+
+%SIMULATIONS
+For a more in depth analysis, that can also probe biases in the parameters, we will simulate maps of the CMB and Foreground emission at each frequency with CAMB and PSM (or PYSM) packages respectively and HEALpix modules \ref{}. Noise simulations will then be added to the signal maps.
+While white noise or anisotropic noise are straightforwardly simulated directly on map domain, 1/f or correlated noise requires simulating time ordered data according to a noise prescription or generator (eg akin to LevelS \ref{} used in Planck). The convolution of the simulated maps with the Gaussian beams can be performed straightforwardly with HEALpix modules, while the convolution with more realistic beams is harder but can be performed with approaches such as FEBeCOP \ref{}, developed for Planck data analysis. To apply the latter an optical beam and scanning strategy needs to be specified and adopted by the software.
+
+The next step is to clean the frequency maps from foregrounds and generate the 'clean' CMB map, using techniques such as Commander, SMICA, SEVEM and possibly NILC \ref{Planck2015-IX}. This is followed by estimation of auto and cross-correlation angular power spectra of the maps using say Master based \ref{}  or XFaster \ref{} based techniques and propagated to parameter estimation using CosmoMC or Multinest sampling.
+Along with this standard procedure we will also apply a novel technique based on direct Bayesian MCMC inference of cosmological parameters in the presence of foregrounds, without resorting to Likelihood approximations (an extension of the method presented in  \ref{Jewelletal2016}). 
+The latter will be integrated with Commander, allowing to bypass the angular power spectrum estimation as it samples Cosmological and Foregrounds parameters directly from the simulated maps. As in this approach the foreground parameter fits (including the spectral index) is performed pixel by pixel, the spatial variation of the spectral index is naturally accounted for. 
+
+%As mentioned earlier 1/f or correlated noise requires simulating time ordered data. To analyse the resulting maps another ingredient is needed, the pixel-to-pixel noise correlation matrix. For a large number of pixels the estimation of this matrix is computationally intensive. As 1/f and correlated noise leaves mostly in the large angular scales and we resort to studying these effects on low resolution maps (reducing computational costs), hybridized with higher resolution maps for the white noise component. 
+
+It should be stressed that to fully assess the performance of a given instrument design, in view of both foreground residuals and the presence of systematics, realistic simulations are essential. These include time domain based simulations which can be generated using HPC4CMB ((https://github.com/hpc4cmb)) based on TOAST 
+%(data framework, including on-the-fly simulation capabilities with full detector beam, bandpass and noise properties)), 
+and a destriper based map-making algorithm such as libMADAM. 
+
+
+%FOM
+Finally to quantify performance we will need to define a figure of merit, FOM. Examples of possible FOM, are: the effective noise in the I,Q,U maps after foreground cleaning (effectively quantifying the noise degradation due to the presence of residual foregrounds); uncertainty and biases in the parameters; the evidence of the best fit model for each instrumental design (used as a qualifier of the instrumental design itself), etc.
+
+
+\comred{GR:This is a first version of the plan - still needs editing} 
+ 
 
 
 
