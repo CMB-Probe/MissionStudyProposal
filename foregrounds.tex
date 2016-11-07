@@ -2,34 +2,12 @@
 \label{sec:foregrounds_systematics}
 
 \vspace{-0.05in}
-
-A tentative target for the CMB Probe is to constrain the tensor to scalar ratio with an 
-uncertainty that is a factor of 100 smaller than the current upper limit $r < 0.07$, that is, to reach 
-$\sigma(r) <0.0007$. Data from \planck\ and 
-sub-orbital experiments reveal that foregrounds already dominate the signal. A 100-fold improvement 
+The search for primordial B-modes sets the most stringent requirements on foreground removal and control of systematic effects. A tentative target for the CMB Probe is to constrain the tensor to scalar ratio with an 
+uncertainty that is a factor of 100 smaller than the current upper limit \mbox{$r < 0.07$}, that is, to reach 
+$\sigma(r) <0.0007$. According to data from \planck\ and 
+sub-orbital experiments foregrounds currently already dominate the signal. A 100-fold improvement 
 on the final error will require exquisite measurement and accounting for foreground sources 
 of confusion. 
-\begin{figure}[ht!]
-\vspace{-0.15in}
-\hspace{-0.2in}
-\begin{center}
-\includegraphics[width=3.2in]{Figures/overview_pol_v4_fsky_noplanck.pdf}
-\includegraphics[width=2.9in]{Figures/cmb_vs_foreground.pdf}
-\end{center}
-\vspace{-0.25in}
-\caption{\small \setlength{\baselineskip}{0.95\baselineskip}
-{\it Left:} Brightness temperature as function of frequency for the polarized CMB (cyan, purple, blue)
-and galactic foreground signals: dust (red) and synchrotron (green). The darker bands correspond to
-sky fractions between $73\%$ and $93\%$; the lighter bands to the cleanest $13\%$, with the width 
-indicating the uncertainty. {\it Right:} Angular power spectrum for B-mode polarization 
-several $r$ values, and for foreground emission between 70 and 200~GHz.}
-%, which shows the power spectrum of
-%foregrounds over $75\%$ of the sky for frequencies between $70$ and
-%$200$ GHz together with the lensing and inflationary contribution for
-%different values of the tensor-to-scalar ratio.
-\label{fig:frequency}
-\vspace{-0.05in}
-\end{figure}
 
 To ascertain that the Probe's uncertainty on the measurement of $r$ is dominated by statistic rather than 
 systematic error, the mission's design, execution, and data analysis will have to be dominated by the need
@@ -44,31 +22,53 @@ to controlling systematic uncertainties to an unprecedented, and certainly not y
 
 
 Whereas the CMB temperature anisotropy signal dominates galactic sources
-of emission, this is not the case for polarization. 
+of emission over much of the sky, this is not the case for polarization. 
 Figure~\ref{fig:frequency} compares the expected RMS brightness temperature 
 of polarized emission from galactic sources to the level of $E$ and $B$ mode signals
-as a function of frequency. It also gives the expected signal levels as a function of angular scale $\ell$.  
-The conclusions, some of which are also borne out by \planck\ measurements, are that: \\
-$\bullet$ over the largest angular scales (lowest $\ell$s), which are crucial for a range 
-of science goals and where the inflationary $B$ mode 
-signal with $r =0.001$ is comparable or larger than that from lensing, foreground sources of confusion 
-will need to be measured and subtracted to a level better than 1 part in 10 for $E$ and in 100 for $B$; \\
-$\bullet$ foregrounds dominate the inflationary $B$ mode signal on {\it all} angular scales by 
-an order of magnitude or more.
+as a function of frequency and gives the expected signal levels as a function of angular scale $\ell$.  
+\begin{figure}[ht!]
+%\vspace{-0.15in}
+\hspace{-0.2in}
+\begin{center}
+\includegraphics[width=3.2in]{Figures/overview_pol_v4_fsky_noplanck.pdf}
+\includegraphics[width=2.9in]{Figures/cmb_vs_foreground.pdf}
+\end{center}
+\vspace{-0.25in}
+\caption{\small \setlength{\baselineskip}{0.95\baselineskip}
+{\it Left:} Brightness temperature as function of frequency for the polarized CMB (cyan, purple, blue)
+and galactic foreground signals: dust (red) and synchrotron (green). The darker bands correspond to
+sky fractions between $73\%$ and $93\%$; the lighter bands to the cleanest $13\%$, with the width 
+indicating the uncertainty. {\it Right:} Angular power spectrum for B-mode polarization for $r=10^-2$ and $r=10^-4$, and for foreground emission between 70 and 220~GHz.}
+%, which shows the power spectrum of
+%foregrounds over $75\%$ of the sky for frequencies between $70$ and
+%$200$ GHz together with the lensing and inflationary contribution for
+%different values of the tensor-to-scalar ratio.
+\label{fig:frequency}
+\vspace{-0.05in}
+\end{figure}
 
-Known signals can be accounted for and removed, even if their amplitude is large. 
+\noindent The conclusions, some of which are also borne out by \planck\ measurements, are that: \\
+\begin{itemize}
+\item{over the largest angular scales (lowest $\ell$s), which are crucial for a range 
+of science goals and where an inflationary $B$ mode 
+signal would be largest relative to that from lensing and instrument noise, foreground sources of confusion will need to be measured and subtracted to a level better than 1 part in 10 for $E$ and in 100 for $B$;}
+\item{foregrounds dominate the potential inflationary $B$ mode signal on {\it all} angular scales by an order of magnitude or more.}
+\end{itemize}
+
+Known signals can be accounted for and removed with multi-frequency observations even if their amplitude is large. 
 But the best measurements to date, from \planck , fall far shorter than needed for the fidelity 
 envisioned for the Probe. This is visually demonstrated by Figure~\ref{fig:Qrp001}, which 
-compares the level of $B$ mode signal at low $\ell$ for $r = 0.001$ to the \planck\ noise, 
+compares the level of $B$ mode signal at low $\ell$ for $r = 0.001$ to the \planck\ 353 GHz noise, 
 extrapolated to 150~GHz, a frequency band in which the signal is among the strongest. 
 \begin{figure}[ht!]
+\hspace{.05in}
 \parbox{2.in}{\centerline {
-\includegraphics[width=2.in]{Figures/P15_2_12_rp001.pdf} } }
-\hspace{-.05in}
-\parbox{2.0in}{\centerline { 
-\includegraphics[width=2.0in]{Figures/P353_N_2_12.pdf} } }
+\includegraphics[width=2.1in]{Figures/P15_2_12_rp001.pdf} } }
+%\hspace{-.05in}
+\parbox{2.1in}{\centerline { 
+\includegraphics[width=2.1in]{Figures/P353_N_2_12.pdf} } }
 \hspace{0.in}
-\parbox{2.4in} { 
+\parbox{2.2in} { 
 \caption{ \footnotesize \setlength{\baselineskip}{0.95\baselineskip}
 {\it Left:} Stokes $Q$ for inflationary $B$-modes for $\ell<12$ and $r=0.001$. 
  {\it Right:} Noise in the $Planck$ 353~GHz map of Stokes $Q$ for $\ell<12$ 
@@ -77,18 +77,17 @@ extrapolated to 150~GHz, a frequency band in which the signal is among the stron
 \vspace{-0.05in}
 \end{figure}
 
-The extrapolation assumes the properties of dust as measured by \planck\ {\it on average} across
-the sky. We now know that these average properties are, as expected from fundamental physics, 
-only approximate. 
-\comred{say something about correlations, spatial distribution, variations in the spectral index. }
+%The extrapolation assumes the properties of dust as measured by \planck\ {\it on average} across
+%the sky. We now know that these average properties are, as expected from fundamental physics, 
+%only approximate. 
+%\comred{say something about correlations, spatial distribution, variations in the spectral index. }
 
-While the search for primordial B-modes leads to the strictest constraints on foreground residuals, 
-exquisite control of foregrounds is also necessary for the other science objectives. 
-The critical measurements of $\tau$, available by a cosmic variance limited measurement of the $E$
-power spectrum, are buried below the foregrounds at $\ell < 10$.  \comred{check what else?}
+Removal of foregrounds based on multi-frequency data in a number of frequency bands relies on extrapolations between frequencies based on an assumed spectral dependence. At the current precision a power law dependence for synchrotron radiation and a modified black body spectrum for dust provide a reasonable fit to CMB data. At the level of precision required for a probe mission, this description will no longer be sufficient. The complex composition of dust leads to departures from a simple modified black body spectrum because different components may emit at different temperatures. The different components are in general not be perfectly correlated with each other, leading to decorrelation between frequency bands. Furthermore, the spectral dependence of synchrotron and dust emission is spatially varying. The spectral dependence must ultimately be measured with the probe mission. The challenge is to design the frequency coverage to do so optimally.  
+
+While the search for primordial B-modes leads to the strictest constraints on foreground residuals, exquisite control of foregrounds is also necessary for the other science objectives. The critical measurements of $\tau$, available by a cosmic variance limited measurement of the $E$ power spectrum, are buried below the foregrounds at $\ell < 10$. In addition, one must understand the foreground requirements to successfully delens the data at the required level.
 Recovering {\it all} of the spectral distortions signals from the raw data will require proper accounting 
 for emission by dust grains, synchrotron emission from electrons spiraling in the galactic magnetic 
-field, and coulomb scattering of charged particles (`free-free'); see Figure~\ref{fig:distortions}.   
+field, and Coulomb scattering of charged particles (`free-free'); see Figure~\ref{fig:distortions}.   
 
 
 %will be buried below the A satellite mission is likely also the only reliable way to measure the optical depth at a level necessary to break the degeneracy with the neutrino mass. 
