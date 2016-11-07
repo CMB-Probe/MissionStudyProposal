@@ -19,9 +19,16 @@ Therefore instrumental effects that can leak
 even a small fraction of an intensity fluctuation into spurious  polarization
 must be understood and controlled. The main effects are differences between gains of detectors, 
 their frequency bandpass mismatch, their differential pointing on the sky, 
-and their differential antenna patterns. These differential effects need to be controlled, through 
-instrument design, characterization, and data analysis to 1 part in $10^{4}$ to give a negligible contribution for 
-$\sigma(r) <0.001$.  This level of control represents a factor of 100 improvement on \planck 's performance~\cite{planck2016_xlvi}. \comred{what about Bicep/Keck?}
+and their differential antenna patterns. Currently, the most sensitive sub-orbital 
+experiments have shown control of systematics at a level of $r\simlt0.006$; 
+approximately half of the contribution was from intensity to polarization leakage~\cite{bicep1502.00608}. 
+These differential effects need to be controlled, through 
+instrument design, characterization, and data analysis to levels that are another 
+factor of 10-100 more stringent so that the contributions of systematic uncertainties
+to the Probe's total error budget is negligible.   
+%This level of control represents a factor of 100 improvement on \planck 's 
+%performance~\cite{planck2016_xlvi}. 
+%\comred{what about Bicep/Keck?}
 
 Leakage-related effects will drive: requirements on the optical system, and the uniformity of the
 bandpass of each polarimeter;  calibration requirements on the level of cross-polar leakage and its angle; 
@@ -34,7 +41,6 @@ half-wave plate.
 % does all of this belong here or in 'to do'.
 
 \textbf{Stability.}  %Given the need to avoid light from the Sun, Earth, and Moon, 
-\comred{need more number(s) in this paragraph}
 The reconstruction of deep, full sky polarization maps involves a combination of measurements made at times
 separated by months, requiring stability of the response of the instrument on corresponding time scales.  Random deviations
 from stability are a source of noise; systematic deviations are a source of systematic error. 
@@ -47,8 +53,11 @@ scales needed for stringent stability, for example Planck's scan strategy traced
 
 The spacecraft's ambient radiation environment is modulated by the solar activity and
 can introduce temperature drifts in the cryogenic stages as well as
-introducing correlated transients in detectors and readout electronics.  The design of the instrument must 
-account for these effects.
+introducing correlated transients in detectors and readout electronics.  
+For example, cosmic ray energy deposition in the Planck/HFI focal plane was a source of 
+correlated noise between detectors and created a factor $\sim$5 
+additional noise at $\ell$=2~\cite{planck2016_xlvi}.
+The design of the instrument must account for these effects.
 % environment, which following Planck is much better understood.
 
 \textbf{Straylight.}   When the brightest sources in the sky -- the Sun, Moon, planets, and Galaxy --
