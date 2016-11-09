@@ -7,12 +7,12 @@
 The imager version of the probe consists of the following main technical elements: a telescope with an effective aperture size 
 of $\lesssim1.5$~m, a focal plane consisting of thousands of detectors, coolers that provide a focal plane temperature between 0.1 and 0.3~K, 
 and a multiplexed readout system with which a handful of wires are used to readout hundreds or thousands of detectors. Additional 
-elements include filters and potentially lenses and polarization modulators. 
+elements could include filters and potentially lenses and polarization modulators. 
 The spectrometer version is also a cryogenic mission, and has two main elements: the spectrometer, and the cold load that provides its
 absolute calibration. Both versions have the standard complement of spacecraft bus features to provide pointing control 
 and sensing, telemetry, and power. 
 
-Relative to \planck , which was the last CMB imaging cryogenic mission, the most significant advances have been made in 
+Relative to \planck, which was the last CMB imaging cryogenic mission, the most significant advances have been made in 
 developing detector and readout technologies, and in optical components. While \planck\ had 54 polarization 
 sensitive detectors, sub-orbital experiments now routinely implement thousands. Aided by large throughput optical 
 systems, and large lenses Stage3 experiments will implement
@@ -23,17 +23,24 @@ will require the implementation of an active polarization modulator.
 
 {\bf Arrays of Detectors} \hspace{0.1in} Currently bolometric transition edge sensor detectors have the highest TRL. Arrays
 with thousands of elements have flown on balloon-borne instruments. Ground-based instruments using this 
-technology have generated the highest measurement sensitivities to date. New technologies (multi-chroic)
+technology have fielded new technologies including multi-chroic detectors, several new optical coupling schemes with horns and planar antennas, and Kinetic Inductance DetectorS (KIDS).   We will study the systematics, sensitivity, cryogenic requirements, and mass of a focal plane suitable for the probe mission.
 
 
+{\bf Readouts}  Currently the CMB field uses two families of readout technologies: frequency domain multiplexing (fMUX) and time domain multiplexing (TDM).  Both offer $~64$ channels per readout module and have mature TRLs from being flown on sub-orbital missions.    Emerging technologies include code-division multiplexing (based on TDM) which could substantially reduce the power requirements for the readout electronics; and microwave fMUX which promises to incorporate $>1000$ channels of TES detectors or KIDS per multiplexing module, greatly simplifying focal plane integration and reducing the cryogenic load on the cold stage.   We will study the noise, power, and mass implications of these solutions and identify the best approach for the probe mission.
 
-{\bf Readouts}
+{\bf Optical Components and Polarization Modulators}  Filters, Lenses, and Polarization Modulators are rapidly maturing technologies that have the potential to improve sensitivity, reduce focal plane mass, manage thermal loads, and mitigate important systematic effects.  Antireflection (AR) coatings on silicon lenses with up to 3:1 ratio bandwidth have been deployed, similar lenses will soon be flown on balloons, and coatings on larger alumina lenses will soon be fielded on the ground.   These AR coating approaches and metal-mesh metamaterials have lead to new realizations of broad-band half-wave plate (HWP) modulators which complement other approaches including variable phase polarization modulators.  Continuous and stepped HWPs have been flown on sub-orbital missions to mitigate systematics.  Deployed filters include metal-mesh, AR coated crystals, plastic layers and hybrids of these approahes.    We will study mission configurations that include these technologies and optimize the system to minimize mass, cooling requirements, maximize sensitivity, and identify methods for control of systematic effects with and with out a polarization modulator.
 
-{\bf Optical Components and Polarization Modulators}
+{\bf Cryogenics:}  An open cycle dilution refrigerator was flown on Planck and a continuous adiabatic demagnetization refrigerator will soon be flown on a balloon.   We will study the requirements and tradeoffs of these mature cooling technologies in a mission plan.
 
 
-
-Both the imager and the spectrometer are cryogenic 
+{\bf Spectrometer}
+The spectrometer is comprised of an array of 4 polarizing Fourier transform spectrometers, each with an absolute reference calibrator.
+Each spectrometer has an aperture less than 0.5 m
+feeding 4 detectors in an integrating cavity.  The spectrometer builds on the COBE/FIRAS mission
+using mature technology (TRL 6 or higher).
+Multi-moded optics, concentrators, detectors, and calibrators
+have been demonstrated;
+detector readout is copied from the successful Hitomi design.  We will study the instrument configuration and evaluate systematics, sensitivity, risks and requirements for this configuration.
 
 % 
 %A fourth generation CMB satellite targeting a map sensitivity of $\sim1 \mu\mathrm{k-arcmin}$ will require, extremely sensitive detector arrays, tight control over systematics, and ability to reject polarized foregrounds as is described in Section 1.2.
