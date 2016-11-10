@@ -8,9 +8,9 @@
 
 \vspace{-0.05in}
 
-The mission study is open to the entire CMB community and includes more than 50 scientists. 
+The mission study is open to the entire CMB community and includes 75 scientists. 
 To gain maximum benefit from \planck , LiteBIRD, and CORE we invited international members to participate. 
-The work is organized into Working Groups (WG) that represent each of the main themes of the study; see 
+The work is organized into Working Groups (WG); see 
 Figure~\ref{fig:management}. Working groups are led by members of the study's Executive Committee, 
 as listed in the Figure. Although Figure~\ref{fig:management} suggests distinct boundaries between the 
 WGs we expect and encourage significant overlap and feedback. It is not practical to enumerate all 
@@ -31,8 +31,16 @@ through an Executive Committee. Each member of the committee is in charge of a s
 \end{figure}
 
 The study will be carried out through intra- and inter-WG teleconferences; mission design teleconference with JPL engineers; 
-mission design meetings at JPL; and a community workshop that is described in more detail below under the `Space / Sub-Orbital 
-Synergy' WG.  We now describe the planned work for each of the WG. \\
+mission design meetings at JPL; and a community workshop that is described in more detail below.  
+A central activity that cross-cuts across several of the WGs is the development and use of 
+a `Mission Performance Simulator'. The mission performance simulator takes as input a particular 
+instrument configuration (e.g number
+of detectors, frequencies, resolutions), sky observing pattern, models of sky emission (including CMB and foregrounds), 
+and systematic effects. It generates detector timestreams that are used to make maps. The maps can be analyzed 
+for their astrophysical content. 
+
+We now describe the work of each of the WGs and, where appropriate, lay out responsibilities for 
+elements of the mission performance simulator. \\
 $\bullet$ {\bf Theory (Knox)} \hspace{0.1in} This WG will survey, summarize, and prioritize the set of 
 science goals for the Probe.  Given input on target frequency bands, assumptions about foregrounds, 
 instrument systematics, and instrument noise levels the group will generate forecasts for the impact of 
@@ -50,7 +58,7 @@ of various configurations, focal planes with several candidate detector technolo
 elements, and cooling strategies. These groups will similarly consider 
 the options for spectrometers.  Both groups will interact frequently with JPL
 the Mission WG. The WG will consider an imager-only design, a spectrometer-only design, and
-a combined instrument.  \\
+a combined instrument.  This group will provide focal plane configurations for the mission performance simulator. \\
 $\bullet$ {\bf Technology (McMahon)} \hspace{0.1in} \comred{to be completed} \\
 $\bullet$ {\bf Space / Sub-Orbital Synergy (Devlin, Jones)} \hspace{0.1in} By the time the \ac{CMB} probe is likely to fly,
 significant advances will have been made on the ground. This is true regardless of the state of the proposed CMB-S4
@@ -68,41 +76,30 @@ set surpassing that of \planck 's. This WG will plan for  the extraction of cosm
 products from the Probe's data. This includes exploring optimal implementation of component separation techniques, 
 of combining sub-orbital CMB data with the Probe's, and of cross-correlating with 
 data at other wavelengths. The WG will assess whether specific synergies suggest preferring some mission parameter values 
-over others. \\
+over others. The group will use outputs of the mission performance simulator. \\
 %The group will also survey possible sources of systematic uncertainties that are introduced during 
 %the analysis process and how these can be addressed during mission 
 %design, implementation, and data analysis. 
-$\bullet$ {\bf Systematics (Crill)} \hspace{0.1in} This WG plans to build an end-to-end simulation pipeline that will 
-generate simulated measurements at an instrumental level, and feed them into the notional analysis pipeline, 
-including foreground/CMB component separation and power spectral analysis.  With this simulation pipeline 
-the WG will explore mitigation of systematic errors by design, for example implementing modulation 
-schemes and modulator technologies, and mitigation of systematic errors by analysis techniques.  
-This pipeline will be used to define requirements for a notional mission, and would be helpful in 
-prioritizing the Probe's technology development needs. 
-
-% To incorporate instrument systematics due to beams, bandpass mismatches, correlated noise, etc., time domain based simulations will be required.
-
-
-$\bullet$ {\bf Foregrounds (Flauger) } \hspace{0.1in} High fidelity measurement and subtraction of foregrounds will permeate all aspects of the study plan. This WG will construct foregrounds models that encompass all the known and expected emission complexities. The models will be informed by physical inputs~\cite{draine_fraisse_2009,Draine:2012zu} and measurements, for example the spatial variations of the spectral dependence, decorrelation between frequencies, and departures from a simple modified black body law for Galactic dust~\cite{planck2015_x,planck2016_l,planck2016_xxix,Vansyngel:2016fbn}. 
-The models will be inputs for the process of instrument optimization, tests of algorithms for foreground removal, and they will inform an optimal selection for the number of frequency bands, their central frequencies and bandwidths, all 
-subject to the constraint of finite focal plane area. This optimization is also informed by choices of detector technology. 
-To carry out exercises in foreground subtraction, we will implement a simulation pipeline that will test the efficiency of different component separation methods including Commander, SMICA, SEVEM and NILC, which have been 
-used with the \planck\ data~\cite{planck2015_ix}. The WG will extract cosmological and astrophysical information from the component maps and their power spectra, and compare to the input values to assess the residual errors. 
-% We will benefit from the experience of the \planck\ data including its use of specific power spectral and parameter estimation approaches (e.g. Master~\cite{}, XFaster~\cite{}, and CosmoMC~\cite{}). 
-
-$\bullet$ {\bf Simulations (Borrill)} \hspace{0.1in} Simulations play critical roles in the design and development 
-of the mission. To determine ultimate signal-to-noise ratio and to identify systematic biases we will build a simulation 
-pipeline that is based on the massively parallel tools built for the Planck Full Focal Plane simulations \cite{plank2015_xii_focalplane}. 
-We will take as inputs the characterization of the instrument and observations provided by the Mission and Systematics groups, 
-and the model of the sky provided by the Foregrounds group. We will generate detector timestreams including 
-sources of systematic effects such as frequency band mismatch, and detector noise correlations. Using candidate sky
-scan patterns, the timestreams will be reduced to maps at each observing frequency. 
-The maps will already include the effects of non-uniform sky coverage, and systematic effects such as 
-intensity to polarization leakage due to gain and antenna pattern differences. The maps  - including both a 
-fiducial dataset and supporting suites of Monte Carlo realizations - will be delivered to the Foregrounds, 
-Data and Theory groups for analysis. To meet the computational requirements of generating and reducing 
-these simulations we will use the HPC resources available to the CMB community at the DOE's National Energy 
-Research Scientific Computing (NERSC) Center.
+$\bullet$ {\bf Systematics (Crill)} \hspace{0.1in} This WG will identify sources of systematic effects,
+evaluate their approximate magnitude, and will construct the tools to integrate the these 
+systematic effects into the mission performance simulator. Examples include frequency band 
+mismatches, differential gains, and sidelobes.  The WG will explore mitigation 
+of systematic errors by design, for example implementing modulation 
+schemes and modulator technologies, and mitigation by analysis techniques.   \\
+$\bullet$ {\bf Foregrounds (Flauger) } \hspace{0.1in} This WG will construct foregrounds models that encompass all the 
+known and expected emission complexities. The models will be informed by data and physical inputs 
+and will include, for example, spatial variations of the spectral dependence, decorrelation between frequencies, and departures 
+from a simple modified black body law for 
+Galactic dust~\cite{draine_fraisse_2009,Draine:2012zu,planck2015_x,planck2016_l,planck2016_xxix,Vansyngel:2016fbn}. 
+The models will be used as part of the Mission Performance Simulator. 
+The WG will also study, develop, test, and recommend methods for component separation including 
+those used with \planck ~\cite{planck2015_ix}. \\
+$\bullet$ {\bf Simulations (Borrill)} \hspace{0.1in} This WG will be in charge of building and running 
+the mission performance simulator. It is based on the massively parallel tools built for the Planck Full 
+Focal Plane simulations~\cite{plank2015_xii_focalplane}. The simulations 
+will use the high performance computing resources available to the CMB community at the 
+DOE's National Energy Research Scientific Computing (NERSC) Center at Lawrence Berkeley National 
+Laboratory. 
 
 \vspace{-0.18in}
 
@@ -112,15 +109,14 @@ Research Scientific Computing (NERSC) Center.
 
 The study will be conducted in three broad phases with several months overlap to allow for the non-linear
 nature of the progression: Mission Definition; Mission Implementation; Report Writeup. \\
-{\bf Mission Definition: 3/2017 - 12/2017} \hspace{0.1in} The primary output of this period is a set of mission requirements that will feed into 
-the Mission Implementation phase. To achieve a set of mission requirements we will adapt the \planck\ simulation pipeline
-and use it to test the impact of mission parameters, such as aperture size, frequency bands, and scan strategy 
-on the extraction of science deliverables. We will define the notional properties of the focal plane including the 
-frequency coverage, angular resolution, and noise properties per detector; the specifications of the scanning strategy; and 
-a model for sky emissions including the CMB and galactic foregrounds. We will then implement the mapmaking algorithm 
-to generate multifrequency maps. This `mission performance engine' will establish a centerpiece of activity during the majority of Study period, not only 
-during the initial phase, as iterations including progressively more complex foregrounds, and more systematic uncertainties 
-will be used to validate mission design choices. 
+{\bf Mission Definition: 3/2017 - 12/2017} \hspace{0.1in} The primary output of this period 
+is a set of mission requirements that will feed into 
+the Mission Implementation phase. To achieve a set of mission requirements we will use the 
+mission performance simulator to iterate over various angular resolutions, focal plane configurations,  
+detector noise properties and progressively more complex foreground and systematic effect models.  
+Having extracted astrophysical information from the resulting multifrequency maps we will have 
+determined the necessary e.g. focal plane sensitivity, or the number of frequency bands. 
+The set of these parameters is the mission requirements. 
 
 During the middle of this period, in summer of 2017, we are planning to hold the community workshop. The goal for 
 the workshop is to generate consensus about the complementarity between the data  from the space mission and from 
@@ -133,11 +129,11 @@ of the number of wires reaching the focal plane -- and on power budget. The pref
 maneuvering the spacecraft and on attitude reconstruction. The large number of detectors will impose constraints on the 
 telemetry. 
 
-By the beginning of 2018 we will define a point design for the mission and a relevant exploration space around this design. 
-The session with JPL's teamX is scheduled for 3/2018. This timing will allow for digesting the results and finalizing 
+By the beginning of 2018 we will define a point design for the mission and a relevant exploration space around it. 
+The session with JPL's TeamX is scheduled for 3/2018. This timing will allow for digesting the results and finalizing 
 the mission implementation.  \\
-{\bf Report Writeup: 3/2018 - 9/2018} \hspace{0.1in} Given the broad participation in this study we expect a number of 
-iterations on the final report. Hence the relatively long time for this activity. 
+{\bf Report Writeup: 3/2018 - 9/2018} \hspace{0.1in} 
+%Given the broad participation in this study we expect a number of iterations on the final report. 
 
 \vspace{-0.18in}
 
