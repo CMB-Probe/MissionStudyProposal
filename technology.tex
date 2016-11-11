@@ -8,81 +8,63 @@ The imager version of the probe consists of the following main technical element
 of $\lesssim1.5$~m, a focal plane consisting of thousands of detectors, coolers that provide a focal plane temperature between 0.1 and 0.3~K, 
 and a multiplexed readout system with which a handful of wires are used to readout hundreds or thousands of detectors. Additional 
 elements could include filters and potentially lenses and polarization modulators. 
-The spectrometer version is also a cryogenic mission, and has two main elements: the spectrometer, and the cold load that provides its
-absolute calibration. Both versions have the standard complement of spacecraft bus features to provide pointing control 
-and sensing, telemetry, and power. 
+The spectrometer version is also a cryogenic mission, and has two main elements: a spectrometer, and the cold load 
+that provides its absolute calibration. Both versions have the standard complement of spacecraft bus features 
+to provide pointing control and sensing, telemetry, and power. 
 
-Relative to \planck, which was the last CMB imaging cryogenic mission, the most significant advances have been made in 
-developing detector and readout technologies, and in optical components. While \planck\ had 52 bolometric polarization 
-sensitive detectors, sub-orbital experiments now routinely implement thousands. Aided by large throughput optical 
-systems, and large lenses Stage3 experiments will implement
-tens of thousands. By the time the Probe flies a focal plane with tens of thousands 
-of detectors, in which few electrical lines readout thousands of detectors will be standard, well-tested technology. 
-A key technical question for the implementation of the probe is whether the need to reject systematic uncertainties 
-will require the implementation of an active polarization modulator. 
+\planck, which was the last CMB imaging cryogenic mission, had 65 polarization sensitive detectors. 
+The most significant advances since then have been made in developing detector and readout technologies, and in optical components.
+The baseline imager, enjoying technologies of a decade ago
+%Sub-orbital experiments now routinely implement thousands. 
+As the paragraphs below describe, a future CMB probe with the technologies would be 
+more powerful than that envisioned with the baseline mission, and orders of magnitude more sensitive than \planck.  \\
 
 {\bf Arrays of Detectors} \hspace{0.1in} 
-Most modern sub-orbital experiments use TES bolometers, with thousands of detectors with TRL>5.  
-These have been successfully implemented with a variety of optical coupling schemes such as horns, 
-contacting lenslets, and antenna arrays. Some instruments have deployed newer technology with arrays of muti-chroic pixels;  
-several frequency bands are detected through the same focal plane pixel. Sub-orbital instruments have achieved map-depths on 
-small patches of sky that are within a factor of 3 of the depth that the baseline mission targeted across the entire sky. A new detector 
-technology using kinetic inductance inductors (KIDs) is emerging, which may have benefits in simplicity of fabrication and a 
+Most modern sub-orbital experiments use TES bolometers, with thousands of detectors with TRL$\geq 5$. 
+HEMT amplifiers, which are a competitive technology below 100~GHz, also has high TRL.   
+The bolometric arrays have been successfully implemented with a variety of optical coupling schemes such as horns, 
+contacting lenslets, and antenna arrays. Some instruments have deployed newer technology with arrays of `muti-chroic pixels'. 
+With this technology several frequency bands are detected through the same focal plane pixel. As of now, arrays with up 
+to 3 bands and 6 detectors per pixel are being used. 
+%Sub-orbital instruments have achieved map-depths on 
+%small patches of sky that are within a factor of 3 of the depth that the baseline mission targeted across the entire sky. 
+A new detector 
+technology using kinetic inductance inductors (KIDs) is emerging, which may have benefits in simplicity of fabrication and 
 scalability to arrays with hundreds of thousands of elements.  
-A future CMB probe with these technologies would be immensely more powerful than that envisioned with the baseline mission. 
 
-{\bf Readout }  \hspace{0.1in} Currently the CMB field uses two families of readout technologies: frequency domain multiplexing (fMUX) 
-and time domain multiplexing (TDM).  Both offer $~64$ channels per readout module and have mature TRLs having been 
-flown on sub-orbital missions.    Emerging technologies include code-division multiplexing (based on TDM) which could 
+{\bf Readout }  \hspace{0.1in} Two families of readout technologies are in use: frequency- and time-domain multiplexing, 
+fMUX, and TDM, respectively.  Both offer $~64$ channels per readout module and have mature TRLs having been 
+flown on sub-orbital missions.   Emerging technologies include code-division multiplexing (based on TDM), which could 
 substantially reduce the power requirements for the readout electronics; and microwave fMUX which promises to 
-incorporate $>1000$ channels of TES detectors or KIDs per multiplexed module, greatly simplifying focal plane integration 
-and reducing the cryogenic load on the cold stage.  Microwave readout places higher demands on the warm readout 
-electronics than lower frequency alternatives. Lower power field programmable gate array- and graphical processor unit-based 
-systems are under active development.
+incorporate $>1000$ channels of TES detectors or KIDs per multiplexed module. The microwave fMUX simplifies 
+focal plane integration and reduces the cryogenic load on the cold stage but places higher 
+demands on the warm readout electronics compared to lower frequency alternatives. 
+Lower power systems with field programmable gate arrays, graphical processor units, and application 
+specific integrated circuits are under active development. 
 
 {\bf Polarization Modulators and Other Optical Components}  \hspace{0.1in} A polarization modulator presents 
 an attractive means to reject a host of systematic uncertainties. Some sub-orbital experiments have used modulators 
 and experience with their operation, efficacy, and the systematic errors they present, is growing. For use with the Probe,
-the modulators will need to have high polarization efficiency over a broad bandwidth. Approximately 100\% fractional 
-bandwidth has been demonstrated. Optical systems that incorporate refractive elements can realize higher throughput 
+the modulators will need to have high polarization efficiency over a broad bandwidth.  A fractional bandwidth of $\sim$100\%  
+has been demonstrated. Optical systems that incorporate refractive elements can realize higher throughput 
 than reflectors alone; the use of refractors -- or a modulator -- requires broad-band anti-reflection coatings. Groups 
 have developed specialized sprays and techniques to fabricate sub-wavelength structures. Most of these 
 technologies have TRL$\geq$5.  
 
 {\bf Spectrometer} \hspace{0.1in} 
-The spectrometer is comprised of a number of polarizing Fourier transform spectrometers, each with an absolute reference calibrator.
-The spectrometer builds on the COBE/FIRAS mission using mature technology with TRL $\geq$6.
+The polarizing Fourier transform spectrometer builds on the COBE/FIRAS mission using mature technology with TRL $\geq$6. 
+The baseline spectrometer we have assumed here 
+is comprised of a number of individual spectrometers, each with its own absolute reference calibrator, 
 Multi-moded optics, concentrators, detectors, and calibrators have been demonstrated. The detector readout is copied from the 
-that used for the Hitomi mission. 
+that used for the Hitomi mission. But the Probe version may combine multiple spectrometer beams within a single telescope. 
+How to achieve that will be part of this study. 
 
 {\bf Cryogenics }  \hspace{0.1in} For providing an operating temperature of 0.1~K: an open cycle dilution 
 refrigerator, a European technology, was flown on \planck . 
 A closed cycle version is under development (also in Europe) and has TRL 3-4. A Goddard continuous adiabatic 
 demagnetization refrigerator (ADR) will soon be flown on a balloon payload.  The Hitomi spacecraft operated a 
 staged version of this a ADR. For higher operating temperatures, refrigerator technologies are standard, but 
-suitability for mission loads will be assessed during the study. 
-%The TRL is above 6 for refrigerators for all other tempera
-
-%  We will study the requirements and tradeoffs of these mature cooling technologies in a mission plan.
+suitability for the mission thermal loads will be assessed during the study. 
 
 
 
-% Section 1.7.1 Study Plan (McMahan, OÕBrient)
-
-%Participants in this group have partial support through outside sub-orbital projects to develop technologies relevant to the probe.  We will thus be well positioned to provide current assessments of TRL as the study progresses.  With this insight, we will provide technical support and assistance to the team designing the mission and instruments.  At the same time, we will identify technologies that are in need of development on a 10 year time scale and seek out ways to facilitate that development with our sub-orbital projects.  In this way, this team will efficiently leverage existing projects to advance the case for a flight mission.
-
-
-%We will study the instrument configuration and evaluate systematics, sensitivity, risks and requirements for this configuration.
-
-%It also introduces the added risk of a rotating 
-%element in space  while introducing risk 
-%Filters, lenses, and polarization modulators are rapidly maturing 
-%technologies that have the potential to improve sensitivity, reduce focal plane mass, manage thermal loads, and mitigate 
-%important systematic effects.  Antireflection (AR) coatings on silicon lenses with up to 3:1 ratio bandwidth have been deployed, 
-%similar lenses will soon be flown on balloons, and coatings on larger alumina lenses will soon be fielded on the ground.   
-%These AR coating approaches and metal-mesh metamaterials have led to new realizations of broad-band half-wave plate 
-%(HWP) modulators which complement other approaches including variable phase polarization modulators.  
-%Continuous and stepped HWPs have been flown on sub-orbital missions to mitigate systematics.  Deployed filters 
-%include metal-mesh, AR coated crystals, plastic layers and hybrids of these approahes.    We will study mission 
-%configurations that include these technologies and optimize the system to minimize mass, cooling requirements, 
-%maximize sensitivity, and identify methods for control of systematic effects with and with out a polarization modulator.
