@@ -31,15 +31,26 @@ to 3 bands and 6 detectors per pixel are being used.
 A new detector technology using kinetic inductance inductors (KIDs) is emerging, which may have benefits in simplicity 
 of fabrication and scalability to arrays with hundreds of thousands of elements.  \\
 {\bf Readout }  \hspace{0.1in} Two families of readout technologies are in use: frequency- and time-domain multiplexing, 
-fMUX, and TDM, respectively.  Both offer $~64$ channels per readout module and have mature TRLs having been 
+FDM, and TDM, respectively.  Both offer $~64$ channels per readout module and have mature TRLs having been 
 flown on balloon payloads.  
-Emerging technologies include code-division multiplexing (based on TDM), which could 
-substantially reduce the power requirements for the readout electronics; and microwave fMUX which promises to 
-incorporate $>1000$ channels of TES detectors or KIDs per multiplexed module. The microwave fMUX simplifies 
-focal plane integration and reduces the cryogenic load on the cold stage but places higher 
-demands on the warm readout electronics compared to lower frequency alternatives. 
-Lower power systems with field programmable gate arrays, graphical processor units, and application 
-specific integrated circuits are under active development.  \\
+%\comred{here}
+Increasing the multiplexing factor, a goal in both approaches, decreases the heat load due to 
+wiring on the focal plane. The microwave FDM is an emerging technology which promises to 
+incorporate $\simgt 500$ channels of TES detectors or KIDs per multiplexed module. It is attractive because
+there is no dissipation at the coldest stage, but there is increased dissipation at $\sim 4$~K and further 
+development is required to reduce the ambient temperature power consumption.  Currently the ambient temperature
+power consumption of TDM systems is $\times2-3$ lower, but development is necessary to reduce 
+the higher power consumption at the coldest stage. \\
+%\comred{here} simplifies 
+%focal plane integration and reduces the cryogenic load on the cold stage but places higher 
+%demands on the warm readout electronics compared to lower frequency alternatives
+%Emerging technologies include code-division multiplexing (based on TDM), which could 
+%substantially reduce the power requirements for the readout electronics; and microwave fMUX which promises to 
+%incorporate $>1000$ channels of TES detectors or KIDs per multiplexed module. The microwave fMUX simplifies 
+%focal plane integration and reduces the cryogenic load on the cold stage but places higher 
+%demands on the warm readout electronics compared to lower frequency alternatives. 
+%Lower power systems with field programmable gate arrays, graphical processor units, and application 
+%specific integrated circuits are under active development.  \\
 {\bf Polarization Modulators and Other Optical Components}  \hspace{0.1in} A polarization modulator presents 
 an attractive means to reject a host of systematic uncertainties. Some sub-orbital experiments have used modulators 
 and experience with their operation, efficacy, and the systematic errors they present, is growing. For use with the Probe,
