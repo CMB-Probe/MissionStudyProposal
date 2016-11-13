@@ -1,0 +1,85 @@
+
+\subsubsection{Systematic Errors}
+% Brendan
+\vspace{-0.05in}
+
+The latest experience with \planck\ points to the following systematic error categories likely to be important 
+for the CMB Probe, or for that matter, for any instrument striving to map the polarization 
+over large portions of the sky to the levels targeted by the Probe~\cite{planck2016_xlvi}:
+% only future space mission or anything targeting this $\sigma (r)$? 
+1) Intensity-to-polarization leakage, 2) stability, and 3) straylight. 
+Each of these is considered below in light of polarimetry measurements through
+differencing the signals of two detectors that are sensitive to orthogonal polarization states. 
+Currently, the most sensitive sub-orbital 
+experiments have shown control of systematics at a level of $r\simlt0.006$ ($r\simlt0.001$ with 
+a polarization modulator on the main beam pattern) on small (1\%) sky fractions~\cite{bicep_systematics,abs2016_hwp}.
+
+% at different times and orientations are combined to recover
+% the maximum likelihood polarization signal from each point on the sky.
+
+\textbf{Leakage}  The CMB temperature anisotropy signal is a factor of 1000 larger 
+than the strongest possible inflationary $B$ modes. Therefore instrumental effects that leak
+even a small fraction of an intensity fluctuation into spurious polarization must be understood 
+and controlled. The main effects are differences between gains of detectors, 
+their frequency bandpass mismatch, their differential pointing on the sky, 
+and their differential antenna patterns. 
+These differential effects need to be controlled, through 
+instrument design, characterization, and data analysis to levels that are another 
+factor of 10-100 more stringent. 
+%This level of control represents a factor of 100 improvement on \planck 's 
+%performance~\cite{planck2016_xlvi}. 
+%\comred{what about Bicep/Keck?}
+
+Leakage-related effects will drive requirements on the optical system, the uniformity of the
+bandpass of each polarimeter, calibration requirements on the level of cross-polar leakage and its angle,
+% why are we saying 'cross-polar' leakage?
+and measurements of the the beam shape as a function of source spectrum. 
+These systematic effects can potentially be mitigated by modulation of the sky signal in
+such a way that allows complete reconstruction of the 
+polarized sky signal using each photometer, for example, using a
+half-wave plate.  
+% does all of this belong here or in 'to do'.
+
+\textbf{Stability}  %Given the need to avoid light from the Sun, Earth, and Moon, 
+The reconstruction of deep, full sky polarization maps involves a combination of measurements made at times
+separated by months, requiring stability of the response of the instrument on corresponding time scales.  
+Random deviations
+from stability are a source of noise; systematic deviations are a source of systematic error. 
+These types of systematic errors require control of thermal drifts of spacecraft temperatures to
+mitigate thermal emissivity changes and thermoelastic deformation of telescope structures.  
+The cryogenic operating temperatures of detectors or reference calibration loads must be controlled
+adequately as well. 
+%Careful design of the scan strategy can shorten the time
+%scales needed for stringent stability, for example Planck's scan strategy traced out great circles which overlapped on
+%1~minute timescales, giving a shorter effective time scale for stability requirements. 
+
+The spacecraft's ambient radiation environment is modulated by the solar activity and
+can introduce temperature drifts in the cryogenic stages, leading to correlated transients in detectors and readout electronics.  
+For example, cosmic ray energy deposition in the Planck/HFI focal plane was a source of 
+correlated noise between detectors and created a factor $\sim$5 
+additional noise at $\ell$=2~\cite{planck2016_xlvi}.
+The design of the instrument must account for these effects.
+% environment, which following Planck is much better understood.
+
+\textbf{Straylight}   When the brightest sources in the sky -- the Sun, Moon, planets, and Galaxy --
+are passing through the far sidelobes of the telescope they create a spurious polarization signal. If they are 
+passing in repeated, scan synchronous pattern, the spurious signal becomes a source of systematic error. 
+This far sidelobe response can be reduced through careful optical design and baffling, but will always be present 
+at a non-trivial level.  Detailed modeling of the \planck\ telescope, convolved with sky sources, gave 
+a predicted sidelobe contamination at a detectable level of tens of micro-Kelvin in the 30 GHz maps.  This
+contamination has been observed in \planck\ difference maps.  
+% which difference? 
+As a result an estimate of the sidelobe contamination was removed from some of the \planck\ time ordered data 
+as part of the mapmaking process. The more stringent requirements for the Probe will necessitate a much 
+stronger level of mitigation.  
+
+%A major limitation to the analysis of far sidelobe contamination in the Planck data has been the lack of bright enough on-orbit sources to validate the GRASP simlation as adjusted by optical and bandpass parameters estimated on-orbit. Finding a way to better validate the FSL model on-orbit for CMB-probe may be critical to successfully removing FSL contamination.
+
+%\textbf{Study Plan.}  Understanding and controlling the effects of systematic errors in a next-generation CMB probe is critical.  During the study period we plan to build an end-to-end simulation pipeline that will generate simulated measurements at an instrumental level, and feed them into the notional analysis pipeline, including foreground/CMB component separation and power spectral analysis.  This simulation pipeline will allow us to explore 1. mitigation of systematic errors by design, for example exploring modulation schemes and modulator technologies, and 2. mitigation of systematic errors by analysis techniques.  This pipeline will be used eventually to define requirements for a notional mission, and could be helpful to prioritize the technology development needs of a future mission.
+
+%The far sidelobes can be reduced by optical design and baffling, but diffraction ensures that this
+%off-axis response will always be present at some level.  Measurement on
+%the ground can allow for some correction, and design of the scan
+%strategy can modulate the sidelobe pickup in a different way from the
+%true on-axis polarization signal, allowing its removal.
+
